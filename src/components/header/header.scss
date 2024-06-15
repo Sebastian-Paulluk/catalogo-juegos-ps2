@@ -1,0 +1,15 @@
+@use '../../scss/variables';
+
+.header {
+    background-color: variables.$color1;
+    width: 100vw;
+    height: variables.$header-height;
+    font-family: variables.$font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

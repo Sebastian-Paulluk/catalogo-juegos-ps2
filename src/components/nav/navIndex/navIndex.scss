@@ -1,0 +1,22 @@
+@use '../../../scss/variables';
+
+
+.nav-index {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.2s ease;
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in;
+
+    &.hidden {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    &:hover {
+        background-color: variables.$color3;
+    }
+}

@@ -1,0 +1,20 @@
+@use '../../scss/variables';
+
+.button{
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    background-color: variables.$color8;
+    font-family: variables.$font;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: variables.$color9;
+    }
+
+    &:active {
+        background-color: white;
+    }
+}

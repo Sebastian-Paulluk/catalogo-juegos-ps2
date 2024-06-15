@@ -1,0 +1,29 @@
+@use '../../scss/variables';
+
+.index-category{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+    .index-title{
+        font-size: larger;
+        font-weight: 700;
+        width: 100%;
+        padding: 20px 40px 20px 40px;
+        background-color: variables.$color4;
+        opacity: 1;
+        transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in;
+    
+        &.hidden {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+    }
+
+    .index-games {
+        display: flex;
+        gap: 20px;
+        padding: 20px 40px 50px 40px;
+    }
+}

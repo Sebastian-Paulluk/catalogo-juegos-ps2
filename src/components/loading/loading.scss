@@ -1,0 +1,20 @@
+@use '../../scss/variables';
+
+.loading-screen {
+    height: calc(100vh - variables.$header-height);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .spin{
+        color: variables.$color7;
+    }
+
+    .loading-text {
+        font-family: variables.$font;
+        color: variables.$color10;
+    }
+}

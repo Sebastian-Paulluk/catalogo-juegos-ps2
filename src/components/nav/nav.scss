@@ -1,0 +1,22 @@
+@use '../../scss/variables';
+
+.nav {
+    background-color: variables.$color1;
+    margin-left: auto;
+    width: variables.$nav-width;
+    height: calc(100vh - variables.$header-height);
+    position: sticky;
+    top: variables.$header-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, width 0.5s ease;
+
+    &.hidden {
+        width: 0px;
+        transform: translateX(50px);
+        opacity: 0;
+    }
+}

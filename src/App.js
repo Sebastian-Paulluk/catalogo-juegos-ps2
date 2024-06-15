@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
+import { Header } from './components/header/header';
+import MainContainer from './components/mainContainer/mainContainer';
+import { exportMyData } from './services/firebase';
+import { games } from './services/games';
+
+
 
 function App() {
+ /*  useEffect(() => {
+    const initializeData = async () => {
+      await exportMyData(games);
+    };
+
+    initializeData();
+  }, []);  */
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <MainContainer />
+    </>
   );
 }
 
