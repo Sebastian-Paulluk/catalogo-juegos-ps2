@@ -1,23 +1,14 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import './gameList.scss'
 import IndexCategory from '../indexCategory/indexCategory'
-import { CategoryIndexLocationContext } from '../../context/CategoryIndexLocationContext'
-import { ref } from 'firebase/database'
 
 export default function GameList({games}) {
   const { currentLocation } = useContext(CategoryIndexLocationContext)
   const refs = useRef({})
 
   useEffect(() => {
-    const element = refs.current[currentLocation]
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-      const offset = 100
-      const elementTop = element.getBoundingClientRect().top + window.scrollY
-      window.scrollTo({
-        top: elementTop - offset,
-        behavior: 'smooth'
-      })
+    if (refs.current[currentLocation]) {
+      refs.current[currentLocation].scrollIntoView({ behavior: 'smooth' })
     }
   }, [currentLocation])
 

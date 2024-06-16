@@ -8,7 +8,7 @@ import { games } from './services/games';
 
 
 function App() {
- /*  useEffect(() => {
+/*   useEffect(() => {
     const initializeData = async () => {
       await exportMyData(games);
     };

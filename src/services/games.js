@@ -34,4 +34,26 @@ export const games = [
         size: 1.9,
         image:'https://i.ibb.co/BL6gBRL/25-to-life.jpg'
     },
+    {
+        name: 'Pro Evolution Soccer (PES)',
+        sub_name: '2011',
+        language: 'español',
+        size: 2.5,
+        image:'https://i.ibb.co/t8L7wbF/PES-2011.jpg'
+    },
+    {
+        name: 'Pro Evolution Soccer (PES)',
+        sub_name: '2012',
+        language: 'español',
+        size: 2.7,
+        image:'https://i.ibb.co/9Gr49Pc/pes-2012.jpg'
+    },
+    {
+        name: 'Yakuza 2',
+        sub_name: '',
+        language: 'inglés',
+        size: 3.9,
+        image:'https://i.ibb.co/ZKxNVks/Yakuza-2.jpg'
+    },
+    
 ]

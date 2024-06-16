@@ -5,6 +5,7 @@ import { getGames } from '../../services/firebase'
 import { groupGamesByIndex } from '../../functions/groupGamesByIndex'
 import GameList from '../gameList/gameList'
 import { Loading } from '../loading/loading'
+import { CategoryIndexLocationContextProvider } from '../../context/CategoryIndexLocationContext'
 
 export default function MainContainer() {
   const [games, setGames] = useState([])
@@ -24,8 +25,10 @@ export default function MainContainer() {
           <Loading />
         ) : (                        
           <>
-            <GameList games={games} />
-            <Nav games={games} />
+            <CategoryIndexLocationContextProvider>
+              <GameList games={games} />
+              <Nav games={games} />
+            </CategoryIndexLocationContextProvider>
           </>
           )
         }

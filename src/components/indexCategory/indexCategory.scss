@@ -5,10 +5,12 @@
     flex-direction: column;
     width: 100%;
 
-
     .index-title{
+        display: flex;
+        align-items: center;
         font-size: larger;
         font-weight: 700;
+        font-size: 25px;
         width: 100%;
         padding: 20px 40px 20px 40px;
         background-color: variables.$color4;

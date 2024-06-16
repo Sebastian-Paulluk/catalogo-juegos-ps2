@@ -8,8 +8,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 50px;
     position: sticky;
     top: 0;
     z-index: 999;
+
+    input {
+        width: 300px;
+        padding: 7px 20px 7px 20px;
+        font-family: variables.$font;
+        font-weight: 400;
+        font-size: larger;
+        border: none;
+        border-radius: 5px;
+    }
 }
