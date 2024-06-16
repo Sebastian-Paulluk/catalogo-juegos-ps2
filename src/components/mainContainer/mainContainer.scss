@@ -4,6 +4,5 @@ $nav-Width: variables.$nav-width;
 
 .main-container {
     display: flex;
-    min-height: calc(100vh - variables.$header-height);
     font-family: variables.$font;
 }
