@@ -4,7 +4,8 @@
   margin: 0;
 }
 
-body {
+html, body {
+  height: 100dvh;
   background-color:  #202020;
   color: white;
   overflow-x: hidden;
