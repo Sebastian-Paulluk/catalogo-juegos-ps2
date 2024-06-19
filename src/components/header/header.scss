@@ -20,12 +20,37 @@
         
         .logo {
             width: 60px;
+            opacity: 1;
+            transition: transform 0.5s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+        
+            &.hidden {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
         }
 
-        .brand {
+        .brand-top {
             font-size: 10px;
             font-weight: 300;
+            opacity: 1;
+            transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+        
+            &.hidden {
+                transform: translateX(200px);
+                opacity: 0;
+            }
+        }
 
+        .brand-bottom {
+            font-size: 10px;
+            font-weight: 300;
+            opacity: 1;
+            transition: transform 0.35s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+        
+            &.hidden {
+                transform: translateX(100px);
+                opacity: 0;
+            }
         }
 
         .games-ps2 {
@@ -33,6 +58,14 @@
             font-weight: 800;
             position: relative;
             margin-top: 2px;
+            opacity: 1;
+            transition: transform 0.5s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+        
+            &.hidden {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+
             &::before {
                 content: "";
                 display: block;
