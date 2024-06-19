@@ -6,6 +6,7 @@ import { exportMyData } from './services/firebase';
 import { games } from './services/games';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { SearchScreen } from './components/searchScreen/searchScreen';
+import { SavedGamesProvider } from './context/SavedGamesContext';
 
 
 function App() {
@@ -19,13 +20,15 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<MainContainer />} />
-          <Route path="/search/:searchedText"element={<SearchScreen />} />
-        </Routes>
-      </BrowserRouter>
+      <SavedGamesProvider>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/" element={<MainContainer />} />
+            <Route path="/search/:searchedText"element={<SearchScreen />} />
+          </Routes>
+        </BrowserRouter>
+      </SavedGamesProvider>
     </div>
   );
 }

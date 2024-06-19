@@ -11,11 +11,17 @@
     justify-content: flex-start;
     overflow: hidden;
     opacity: 1;
-    transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in;
+    transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.1s ease-in;
 
     &.hidden {
         transform: translateX(20px);
         opacity: 0;
+    }
+
+    &.saved {
+        box-shadow: 10px 10px 5px rgb(5, 65, 0);
+        transform: translate(-10px, -10px);
+        border-color: rgb(0, 255, 0);
     }
 
     .img-container{
