@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 $color1: #000000;
 $color2: #101010;
@@ -18,9 +18,10 @@ $borderColor: #B6B6B6;
 $textDarkColor: #000000;
 $textBrightColor: #edf4fb;
 $font: "Raleway", sans-serif;
+$font2: "IBM Plex Sans", sans-serif;
 
 $footer-height: 135px;
-
+$main-container-min-height: 1215px;
 $header-height: 100px;
 $nav-width: 60px;
 

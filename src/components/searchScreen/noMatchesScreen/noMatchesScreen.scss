@@ -1,0 +1,25 @@
+@use '../../../scss/variables';
+
+.no-matches-screen {
+    height: calc(100vh - variables.$header-height);
+    width: 100%;
+    font-family: variables.$font2;
+    color: variables.$color10;
+    display: flex;
+    display: grid;
+    grid-template-rows: 75px auto;
+
+    .category-title-container {
+        margin-bottom: auto;
+    }
+
+    .no-matches-text {
+        font-family: variables.$font;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 80px;
+    }
+}

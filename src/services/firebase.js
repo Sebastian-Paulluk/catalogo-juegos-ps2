@@ -24,6 +24,25 @@ export const getGames = async()=> {
 
 
 
+export const getGamesByNameOrSubName = async(searchedText) =>{
+  const productsCollectionRef = collection(db, "games");
+  const snapshot = await getDocs(productsCollectionRef);
+
+  const escapedText = searchedText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp('.*' + escapedText + '.*', 'i');
+
+  const filteredProducts = snapshot.docs
+      .map(doc => ({id: doc.id, ...doc.data() }))
+      .filter(game => {
+        const combinedGameAndSubName = `${game.name} ${game.sub_name}`;
+        return regex.test(combinedGameAndSubName);
+      })
+    
+
+  return filteredProducts;
+}
+
+
 
 
 

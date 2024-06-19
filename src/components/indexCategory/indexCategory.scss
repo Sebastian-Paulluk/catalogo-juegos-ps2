@@ -4,26 +4,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .index-title{
-        display: flex;
-        align-items: center;
-        font-size: larger;
-        font-weight: 700;
-        font-size: 25px;
-        width: 100%;
-        padding: 20px 40px 20px 40px;
-        background-color: variables.$color4;
-        opacity: 1;
-        transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in;
-    
-        &.hidden {
-            transform: translateX(-100px);
-            opacity: 0;
-        }
-    }
 
     .index-games {
+        max-width: variables.$main-container-min-height;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

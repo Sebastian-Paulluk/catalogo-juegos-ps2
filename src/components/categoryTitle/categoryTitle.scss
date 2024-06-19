@@ -1,0 +1,49 @@
+@use '../../scss/variables';
+
+.category-title-container {
+    font-size: larger;
+    font-weight: 700;
+    font-size: 25px;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    background-color: variables.$color4;
+    opacity: 1;
+    transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in;
+    gap: 10px;
+    font-family: variables.$font2;
+    
+    &.hidden {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    .category-title {
+        max-width: variables.$main-container-min-height;
+        margin: auto;
+        padding-inline: 20px;
+        gap: 10px;
+
+        .cancel-search{
+            font-size: smaller;
+            color: variables.$color8;
+            transition: all 0.2s ease;
+            padding: 0px 7px;
+            border-radius: 50%;
+            border: 1px solid variables.$color8;
+
+            &:hover {
+                color: variables.$color10;
+                border-color: variables.$color10;
+            }
+        }
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:visited {
+            color: inherit; 
+        }
+    }
+}

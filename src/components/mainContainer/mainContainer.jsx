@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { getGames } from '../../services/firebase'
 import { groupGamesByIndex } from '../../functions/groupGamesByIndex'
 import GameList from '../gameList/gameList'
-import { Loading } from '../loading/loading'
+import { LoadingScreen } from '../loadingScreen/loadingScreen'
 import { CategoryIndexLocationContextProvider } from '../../context/CategoryIndexLocationContext'
 
 export default function MainContainer() {
@@ -22,7 +22,7 @@ export default function MainContainer() {
   return (
     <div className='main-container'>
       { isLoading ? (
-          <Loading />
+          <LoadingScreen />
         ) : (                        
           <>
             <CategoryIndexLocationContextProvider>
