@@ -4,6 +4,7 @@ import logo from './../../assets/logo.png';
 import { SearchInput } from './searchInput/searchInput'
 import { Link } from 'react-router-dom'
 import { useMountingAnimation } from '../../Hooks/useMountingAnimation';
+import { SavedGamesWidget } from './savedGamesWidget/savedGamesWidget';
 
 export const Header =()=>{
     const visibility = useMountingAnimation()
@@ -21,7 +22,7 @@ export const Header =()=>{
                 </div>
             </Link>
             <SearchInput />
-            <span>OOO</span>
+            <SavedGamesWidget />
         </div>
     )
 }

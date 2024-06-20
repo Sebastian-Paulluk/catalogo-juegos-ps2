@@ -1,0 +1,34 @@
+@use '../../scss/variables';
+
+.saved-games-drawer{
+    font-family: variables.$font;
+
+    .no-saved-games-text{
+        width: 100%;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .ant-drawer-header-title{
+        display: flex;
+        flex-direction: row-reverse;
+
+        .ant-drawer-title{
+            font-size: larger;
+        }
+    }
+
+    .ant-drawer-close {
+        color:variables.$color8;
+        transition: all 0.2s ease;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        padding: 15px;
+
+        &:hover {
+            color: variables.$color10;
+            border: 1px solid variables.$color10;
+        }
+    }
+}

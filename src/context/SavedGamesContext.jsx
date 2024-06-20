@@ -1,4 +1,5 @@
 import { createContext, useEffect, useState } from "react";
+import { customRound } from "../functions/roundNumber";
 
 export const savedGamesContext = createContext();
 
@@ -34,6 +35,14 @@ export const SavedGamesProvider = ({children}) =>{
         return savedGames.length;
     }
 
+    const totalSizeSavedList = () =>{
+        let acum = 0
+        savedGames.forEach(game => acum += game.size )
+        
+        return customRound(acum)
+    }
+    
+
 
     const removeGameFromSavedList =(gameToRemove)=>{
         const gameIndex = savedGames.findIndex(gameInSavedList => gameInSavedList.id === gameToRemove.id);
@@ -68,7 +77,8 @@ export const SavedGamesProvider = ({children}) =>{
             removeGameFromSavedList,
             toggleGameOnSavedList,
             totalQuantitySavedGames,
-            emptySavedGamesList
+            emptySavedGamesList,
+            totalSizeSavedList
         }}>
             {children}
         </savedGamesContext.Provider>
