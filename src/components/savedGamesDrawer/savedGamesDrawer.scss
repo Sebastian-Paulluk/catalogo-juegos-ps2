@@ -2,12 +2,38 @@
 
 .saved-games-drawer{
     font-family: variables.$font;
+    padding-right: 5px;
 
     .no-saved-games-text{
         width: 100%;
         font-size: larger;
         text-align: center;
     }
+
+    .ant-drawer-body {
+        overflow-y: auto;
+        padding-right: 10px; 
+       
+        &::-webkit-scrollbar {
+            width: 5px; 
+        }
+
+        &::-webkit-scrollbar-track {
+            background: variables.$color5; /* Color de fondo del track del scroll */
+            border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: variables.$color9; /* Color del thumb del scroll */
+            border-radius: 10px;
+          }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: variables.$color10;
+                        cursor: pointer;
+          }
+    }
+
 
     .ant-drawer-header-title{
         display: flex;
@@ -33,6 +59,7 @@
     }
 
     .drawer-options{
+        width: 325px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 25px;

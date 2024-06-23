@@ -3,17 +3,19 @@
 .drawer-game-card{
     position: relative;
     color: white;
-    width: 110%;
+    width: 100%;
     border-top: 1px solid variables.$color8;
     height: 75px;
-    transform: translate(-25px);
+    transform: translateX(-25px);
     overflow: hidden;
     opacity: 1;
-    transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.1s ease-in;
+    transition: transform 0.3s ease, opacity 0.2s ease-in, box-shadow 0.1s ease-in;
     display: flex;
 
+
+    
     &.hidden {
-        transform: translateX(20px);
+        transform: translateX(-1000px);
         opacity: 0;
     }
 
@@ -60,5 +62,13 @@
         right: 2px;
         top:2px;
         cursor: pointer;
+        opacity: 1;
+        transition: transform 0.4s ease, opacity 0.2s ease-in;
+
+    
+        &.hidden {
+            transform: translatex(-100px);
+            opacity: 0;
+        }
     }
 }

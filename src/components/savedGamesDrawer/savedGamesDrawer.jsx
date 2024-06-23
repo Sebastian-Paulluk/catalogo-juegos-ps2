@@ -56,7 +56,7 @@ export const SavedGamesDrawer =({open, onClose})=>{
 
                         {savedGames.map((game, index) => {
                             const mountingDelay = (index + 1) * 0.03
-                            return  <DrawerGameCard game={game} key={game.id} mountingDelay={mountingDelay} />
+                            return  <DrawerGameCard game={game} key={game.id} mountingDelay={mountingDelay} open={open}/>
                         })}
                     </>
                 )

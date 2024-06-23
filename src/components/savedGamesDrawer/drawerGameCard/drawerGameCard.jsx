@@ -1,20 +1,44 @@
-import { useMountingAnimation } from '../../../Hooks/useMountingAnimation'
 import { capitalizeWords } from '../../../functions/capitalizeWords'
 import './drawerGameCard.scss'
 import discardImg from '../../../assets/trash.png'
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { savedGamesContext } from '../../../context/SavedGamesContext'
 
-export const DrawerGameCard =({game, mountingDelay})=>{
+export const DrawerGameCard =({game, mountingDelay, open})=>{
     const {removeGameFromSavedList} = useContext(savedGamesContext)
-    const visibility = useMountingAnimation(mountingDelay)
+    const [cardVisibility, setCardVisibility] = useState(false);
+    const [detailsVisibility, setDetailsVisibility] = useState(false);
+
+    useEffect (()=>{
+        if (open) {
+            const timerIdCardVisibility = setTimeout(()=>{
+                setCardVisibility(true)
+            }, mountingDelay * 1000)
+
+            const timerIdDetailsVisibility = setTimeout(()=>{
+                setDetailsVisibility(true)
+            }, (mountingDelay * 1000) + 100)
+
+            return () => {
+                setCardVisibility(false)
+                setDetailsVisibility(false)
+                clearTimeout(timerIdCardVisibility)
+                clearTimeout(timerIdDetailsVisibility)
+            }
+        } else {
+            setCardVisibility(false)
+            setDetailsVisibility(false)
+        }
+    }, [mountingDelay, open]);
+
+
 
     const handleRemoveGameClick =(game)=>{
         removeGameFromSavedList(game)
     }
 
     return(
-        <div className={`drawer-game-card ${visibility ? '' : 'hidden'}`}>
+        <div className={`drawer-game-card ${cardVisibility ? '' : 'hidden'}`}>
             <div className='img-container'>
                 <img src={game.image} alt={game.name}></img>
             </div> 
@@ -26,7 +50,7 @@ export const DrawerGameCard =({game, mountingDelay})=>{
                 <span>Idioma: {capitalizeWords(game.language)}</span>
                 <span>Peso: {game.size + ' GB'}</span>
             </div>
-            <img className='discard-img' src={discardImg} onClick={()=>handleRemoveGameClick(game)} alt='discard'></img>
+            <img className={`discard-img ${detailsVisibility ? '' : 'hidden'}`} src={discardImg} onClick={()=>handleRemoveGameClick(game)} alt='discard'></img>
         </div>
     )
 }
