@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useRef } from 'react'
 import './gameList.scss'
 import IndexCategory from '../indexCategory/indexCategory'
 import { CategoryIndexLocationContext } from '../../context/CategoryIndexLocationContext'
-import { ref } from 'firebase/database'
 
 export default function GameList({games}) {
   const { currentLocation } = useContext(CategoryIndexLocationContext)

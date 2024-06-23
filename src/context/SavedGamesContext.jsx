@@ -65,9 +65,25 @@ export const SavedGamesProvider = ({children}) =>{
         }
     }
 
-    const emptySavedGamesList =()=>{
+    const clearSavedGamesList =()=>{
         setSavedGames([]);
     }
+
+    
+    const getSavedGamesList =()=>{
+        let list = ''
+
+        const addGameLine=(game, index)=>{
+            game && ( list += `${index + 1}- ${savedGames[index].name} ${savedGames[index].sub_name}\n` )
+        }
+
+        for (let i=0; i <= savedGames.length; i++) {
+            addGameLine(savedGames[i], i)
+        }
+        return list
+    }
+
+
 
     return (
         <savedGamesContext.Provider value={{
@@ -77,8 +93,9 @@ export const SavedGamesProvider = ({children}) =>{
             removeGameFromSavedList,
             toggleGameOnSavedList,
             totalQuantitySavedGames,
-            emptySavedGamesList,
-            totalSizeSavedList
+            clearSavedGamesList,
+            totalSizeSavedList,
+            getSavedGamesList
         }}>
             {children}
         </savedGamesContext.Provider>

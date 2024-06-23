@@ -18,7 +18,7 @@ const groupGamesByIndex = games => {
         }
 
         indexesCollection.forEach( indexCollection =>{
-            if (indexCollection.name == index) {
+            if (indexCollection.name === index) {
                 indexCollection.games.push(game)
                 found = true
             }

@@ -31,4 +31,10 @@
             border: 1px solid variables.$color10;
         }
     }
+
+    .drawer-options{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
 }

@@ -13,7 +13,7 @@ export const Header =()=>{
         <div className='header'>
             <Link to='/'>
                 <div className='logo-container'>
-                    <img src={logo}  className={`logo ${visibility ? '' : 'hidden'}`}></img>
+                    <img src={logo} alt='logo' className={`logo ${visibility ? '' : 'hidden'}`}></img>
                     <div className='logo-text'>
                         <span className={`brand-top ${visibility ? '' : 'hidden'}`} >ORION</span>
                         <span className={`brand-bottom ${visibility ? '' : 'hidden'}`} >COMPUTACIÓN</span>

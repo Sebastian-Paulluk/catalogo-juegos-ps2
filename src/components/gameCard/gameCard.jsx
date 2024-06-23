@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './gameCard.scss'
 import { useMountingAnimation } from '../../Hooks/useMountingAnimation'
-import { Button } from '../button/button'
+import { PersonalizedButton } from '../button/button'
 import { capitalizeWords } from '../../functions/capitalizeWords'
 import { savedGamesContext } from '../../context/SavedGamesContext'
 
@@ -35,7 +35,7 @@ export default function GameCard({game, mountingDelay}) {
             }
             <span className='language'>Idioma: {language}</span>
             <span className='size'>Peso: {game.size} GB</span>
-            <Button content={savedState ? 'Descartar' : 'Guardar'} onClick={()=>handleClick(game)}/>
+            <PersonalizedButton content={savedState ? 'Descartar' : 'Guardar'} onClick={()=>handleClick(game)}/>
         </div>
     )
 }

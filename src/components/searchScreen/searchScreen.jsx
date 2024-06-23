@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './searchScreen.scss'
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { getGamesByNameOrSubName } from '../../services/firebase';
 import { LoadingScreen } from '../loadingScreen/loadingScreen';
 import GameCard from '../gameCard/gameCard';
@@ -30,7 +30,7 @@ export const SearchScreen =()=> {
                 <LoadingScreen />
             ) : (
                 
-                filteredGames.length == 0 ? (
+                filteredGames.length === 0 ? (
                     <NoMatchesScreen searchedText={searchedText}/>
                 ) : (
 
