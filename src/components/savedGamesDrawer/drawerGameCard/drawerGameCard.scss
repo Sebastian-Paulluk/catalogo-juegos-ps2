@@ -30,7 +30,6 @@
         img {
             height: 110px;
             width: 500px;
-            cursor: pointer;
         }
     }
 
@@ -63,11 +62,10 @@
         top:2px;
         cursor: pointer;
         opacity: 1;
-        transition: transform 0.4s ease, opacity 0.2s ease-in;
+        transition: opacity 1s ease;
 
     
         &.hidden {
-            transform: translatex(-100px);
             opacity: 0;
         }
     }
