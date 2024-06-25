@@ -34,6 +34,7 @@ export const Drawer =({open, hideDrawer})=>{
 
     const lockScroll = () => {
         const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+        alert(scrollbarWidth)
         document.body.style.overflow = 'hidden';
         document.body.style.paddingRight = scrollbarWidth > 0 ? `${scrollbarWidth}px` : '0px';    
     }
