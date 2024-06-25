@@ -3,21 +3,15 @@ import listImg from '../../../assets/list.png'
 import { Badge } from 'antd';
 import { savedGamesContext } from '../../../context/SavedGamesContext';
 import './savedGamesWidget.scss'
-import { SavedGamesDrawer } from '../../savedGamesDrawer/savedGamesDrawer';
+import { Drawer } from '../../savedGamesDrawer/drawer';
 
 export const SavedGamesWidget =()=>{
     const {totalQuantitySavedGames, savedGames, totalSizeSavedList} = useContext(savedGamesContext);
     const [count, setCount] = useState(totalQuantitySavedGames);
     const [open, setOpen] = useState(false);
 
-    const showDrawer = () => {
-        setOpen(true);
-    };
-
-    const onClose = () => {
-        setOpen(false);
-    };
-
+    const openDrawer = () => setOpen(true);
+    const hideDrawer = () => setOpen(false);
 
     useEffect(()=>{
         setCount(totalQuantitySavedGames)
@@ -30,19 +24,19 @@ export const SavedGamesWidget =()=>{
                     size="middle"
                     offset={[-30, 5]}
                     color='purple'
-                    onClick={showDrawer}
+                    onClick={openDrawer}
                 >
                 <Badge
                     count={ totalQuantitySavedGames() > 0 ? totalSizeSavedList() + ' GB' : ''}
                     size="middle"
                     offset={[5, 30]}
                     color='geekblue'
-                    onClick={showDrawer}
+                    onClick={openDrawer}
                 >
-                    <img src={listImg} className='list-img' alt="list" onClick={showDrawer}></img>
+                    <img src={listImg} className='list-img' alt="list" onClick={openDrawer}></img>
                 </Badge>
                 </Badge>
-                <SavedGamesDrawer onClose={onClose} open={open} />
+                <Drawer hideDrawer={hideDrawer} open={open} />
         </div>
     )
 }

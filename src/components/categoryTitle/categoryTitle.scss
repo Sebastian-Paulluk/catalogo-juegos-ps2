@@ -11,6 +11,7 @@
     transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in;
     gap: 10px;
     font-family: variables.$font2;
+    height: 73px;
     
     &.hidden {
         transform: translateX(-100px);
@@ -18,7 +19,7 @@
     }
 
     .category-title {
-        max-width: variables.$main-container-min-height;
+        max-width: variables.$main-container-max-width;
         margin: auto;
         padding-inline: 20px;
         gap: 10px;

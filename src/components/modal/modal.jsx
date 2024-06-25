@@ -1,25 +1,34 @@
 import { useEffect, useState } from "react"
 import './modal.scss'
 
-export const Modal =({closeModal, openModal, game})=>{
-    const [visibility, setVisibility] = useState(openModal)
+export const Modal =({onClose, open, game})=>{
+    const [visibility, setVisibility] = useState(open)
 
-    useEffect(()=>{
-        setVisibility(openModal)
-        openModal ? (document.body.style.overflow = 'hidden') : (document.body.style.overflow = 'auto')
+    const lockScroll = () => {
+        const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth
+        document.body.style.overflow = 'hidden'
+        document.body.style.paddingRight = `${scrollbarWidth}px`
+    }
 
-        return () => {
-            document.body.style.overflow = 'auto';
-        };
-    },[openModal])
+    const unlockScroll = () => {
+        document.body.style.overflow = 'auto'
+        document.body.style.paddingRight = '0px'
+    }
+    
+    useEffect(() => {
+        setVisibility(open)
+        open ? lockScroll() : unlockScroll()
+
+        return () => unlockScroll()
+    }, [open]);
 
     return (
         <div className={`modal ${visibility ? '': 'hidden'}`}>
-            <div className='modal-background' onClick={closeModal}></div>
+            <div className='modal-background' onClick={onClose}></div>
             <div className='modal-content'>
                 <div className='modal-img-container'>
                     <img src={game.image} alt={game.name + ' ' + game.sub_name} className='modal-game-image'></img>
-                    <span className='close-modal' onClick={closeModal}> X </span>
+                    <span className='close-modal' onClick={onClose}> X </span>
                 </div>
             </div>
         </div>

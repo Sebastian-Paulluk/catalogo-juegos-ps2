@@ -1,13 +1,28 @@
+@use '../../scss/variables';
+
+
 .search-screen {
     color:white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     gap: 20px;
+    background-color: variables.$color3;
+    min-height: calc(100vh - variables.$header-height);
+    width: 100%;
 
-    @media only screen and (max-width: 430px) {
-        gap: 10px;
+    .search-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        @media only screen and (max-width: 430px) {
+            gap: 10px;
+        }
     }
 
 }

@@ -1,10 +1,11 @@
 import {  Drawer, message } from "antd"
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 import { savedGamesContext } from "../../context/SavedGamesContext"
 import './savedGamesDrawer.scss'
 import { DrawerGameCard } from "./drawerGameCard/drawerGameCard"
 import { PersonalizedButton } from "../button/button"
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { lockScroll, unlockScroll } from "../../utils/scroll"
 
 export const SavedGamesDrawer =({open, onClose})=>{
     const {savedGames,savedGameslistIsEmpty, clearSavedGamesList, getSavedGamesList} = useContext(savedGamesContext)
@@ -22,6 +23,19 @@ export const SavedGamesDrawer =({open, onClose})=>{
           },
         });
       };
+
+
+    useEffect(() => {
+        if (open) {
+            lockScroll();
+        } else {
+            unlockScroll();
+        }
+
+        return () => {
+            unlockScroll();
+        };
+    }, [open]);
 
     return (
         <Drawer

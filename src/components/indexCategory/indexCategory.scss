@@ -9,7 +9,7 @@
     align-items: center;
 
     .index-games {
-        max-width: variables.$main-container-min-height;
+        max-width: variables.$main-container-max-width;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

@@ -36,10 +36,12 @@ export const SearchScreen =()=> {
 
                     <div className='search-screen'>
                         <CategoryTitle title={'Buscando: ' + searchedText} search={true} style={{ display: 'flex', justifyContent: 'center' }}  />
-                        {filteredGames.map((game, index) => {
-                            const mountingDelay = (index + 1) * 0.03
-                            return <GameCard game={game} key={game.id} mountingDelay={mountingDelay} />
-                        })}
+                        <div className='search-content'>
+                            {filteredGames.map((game, index) => {
+                                const mountingDelay = (index + 1) * 0.03
+                                return <GameCard game={game} key={game.id} mountingDelay={mountingDelay} />
+                            })}
+                        </div>
                     </div>
                 )
             )}

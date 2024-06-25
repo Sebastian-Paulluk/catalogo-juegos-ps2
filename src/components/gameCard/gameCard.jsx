@@ -49,7 +49,7 @@ export default function GameCard({game, mountingDelay}) {
                 <span className='size'>Peso: {game.size} GB</span>
                 <PersonalizedButton content={savedState ? 'Descartar' : 'Guardar'} onClick={()=>handleSaveGameClick(game)}/>
             </div>
-            <Modal closeModal={handleCloseModal} openModal={openModal} game={game} />
+            <Modal onClose={handleCloseModal} open={openModal} game={game} />
         </>    
     )
 }

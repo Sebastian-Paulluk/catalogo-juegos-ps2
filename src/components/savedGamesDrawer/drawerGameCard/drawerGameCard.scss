@@ -6,13 +6,10 @@
     width: 100%;
     border-top: 1px solid variables.$color8;
     height: 75px;
-    transform: translateX(-25px);
     overflow: hidden;
     opacity: 1;
     transition: transform 0.3s ease, opacity 0.2s ease-in, box-shadow 0.1s ease-in;
     display: flex;
-
-
     
     &.hidden {
         transform: translateX(-1000px);
