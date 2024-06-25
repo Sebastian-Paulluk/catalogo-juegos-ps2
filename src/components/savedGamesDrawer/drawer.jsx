@@ -33,9 +33,14 @@ export const Drawer =({open, hideDrawer})=>{
     const {savedGames,savedGameslistIsEmpty, clearSavedGamesList, getSavedGamesList} = useContext(savedGamesContext)
 
     const lockScroll = () => {
-        const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth
-        document.body.style.overflow = 'hidden'
-        document.body.style.paddingRight = `${scrollbarWidth}px`
+        const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+        document.body.style.overflow = 'hidden';
+        document.body.style.paddingRight = scrollbarWidth > 0 ? `${scrollbarWidth}px` : '0px';    
+    }
+
+    const unlockScroll = () => {
+        document.body.style.overflow = 'auto'
+        document.body.style.paddingRight = '0px'
     }
 
     const success = () => {
@@ -50,11 +55,6 @@ export const Drawer =({open, hideDrawer})=>{
           },
         });
       };
-
-    const unlockScroll = () => {
-        document.body.style.overflow = 'auto'
-        document.body.style.paddingRight = '0px'
-    }
 
     useEffect(() => {
         setVisibility(open)
