@@ -3,7 +3,7 @@ import searchIcon from '../../../../assets/search.png'
 import { useRef, useState } from 'react';
  import { useNavigate } from 'react-router-dom';
 
-export const SearchInput =()=>{
+export const SearchInput =({hideSearchBar})=>{
      const navigate = useNavigate(); 
     const [clearIconHidden, setClearIconHidden] = useState(true)
     const inputRef = useRef(null);
@@ -16,6 +16,10 @@ export const SearchInput =()=>{
         const searchTerm = inputRef.current.value;
         if (event.key === 'Enter' && searchTerm.trim() !== '') {
             search(searchTerm);
+
+            inputRef.current.value = ''
+            hideSearchBar()
+            setClearIconHidden(true)
         }
     };
 
@@ -23,6 +27,10 @@ export const SearchInput =()=>{
         const searchTerm = inputRef.current.value;
         if (searchTerm.trim() !== '') {
             search(searchTerm);
+            
+            inputRef.current.value = ''
+            hideSearchBar()
+            setClearIconHidden(true)
         }
     };
 
@@ -32,8 +40,8 @@ export const SearchInput =()=>{
     }
 
     const handleClearClick =()=>{
-        inputRef.current.value = '';
-        setClearIconHidden(true);
+        inputRef.current.value = ''
+        setClearIconHidden(true)
     }
 
 

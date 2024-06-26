@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './App.css';
+import './App.scss';
 import { Header } from './components/header/header';
 import MainContainer from './components/mainContainer/mainContainer';
 import { exportMyData } from './services/firebase';

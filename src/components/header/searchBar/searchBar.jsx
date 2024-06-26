@@ -27,7 +27,8 @@ export const SearchBar =({open, hideSearchBar})=>{
         <div className={`search-bar-container ${visibility ? '': 'hidden'}`}>
             <div className='search-bar-background' onClick={hideSearchBar}></div>
             <div className='search-bar'>
-                <SearchInput />
+                <SearchInput hideSearchBar={hideSearchBar}/>
+                <button className='close-search-bar-button' onClick={hideSearchBar}> X </button>
             </div>
         </div>
     )

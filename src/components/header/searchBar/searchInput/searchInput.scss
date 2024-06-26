@@ -2,7 +2,7 @@
 
 .search-product-input-container {
     width: 400px;
-    border-radius: 5px;
+    border-radius: 20px;
     position: relative;
     overflow: hidden;
     border:1px solid white;
@@ -28,6 +28,7 @@
 
         &:focus {
             box-shadow: inset 0 0 8px 2px variables.$borderColor;
+            border-radius: 20px;
         }
     }
 
