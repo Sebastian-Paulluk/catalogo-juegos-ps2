@@ -27,8 +27,10 @@ export const SearchInput =({hideSearchBar, open, cleanInput, setCleanInput})=>{
             search(searchTerm);
 
             inputRef.current.value = ''
+            inputRef.current.blur()
             hideSearchBar()
             setClearIconHidden(true)
+
         }
     };
 
