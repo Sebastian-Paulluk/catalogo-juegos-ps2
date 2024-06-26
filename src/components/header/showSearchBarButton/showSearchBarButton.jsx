@@ -11,7 +11,7 @@ export const ShowSearchBarButton =()=>{
 
     return (
         <>
-            <button className="show-search-bar-button" onClick={openSearchBar}>
+            <button className="show-search-bar-button" onClick={openSearchBar} >
                 <img src={searchIcon} alt='search-button'></img>
             </button>
             <SearchBar open={open} hideSearchBar={hideSearchBar} />

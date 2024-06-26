@@ -1,16 +1,25 @@
 import './searchInput.scss';
 import searchIcon from '../../../../assets/search.png'
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
  import { useNavigate } from 'react-router-dom';
 
-export const SearchInput =({hideSearchBar})=>{
-     const navigate = useNavigate(); 
+export const SearchInput =({hideSearchBar, open, cleanInput, setCleanInput})=>{
+    const navigate = useNavigate(); 
     const [clearIconHidden, setClearIconHidden] = useState(true)
     const inputRef = useRef(null);
+
+    useEffect(()=>{
+        cleanInput && (inputRef.current.value = '')
+        cleanInput && setClearIconHidden(true)
+        open && inputRef.current.focus()
+    },[open, cleanInput])
+
 
     const search =searchTerm=> {
         navigate(`/search/${searchTerm}`);
     }; 
+
+
 
     const handleSearchInput=(event)=>{
         const searchTerm = inputRef.current.value;
@@ -37,6 +46,7 @@ export const SearchInput =({hideSearchBar})=>{
     const handleInputChange =()=>{
         const searchTerm = inputRef.current.value;
         setClearIconHidden(searchTerm.trim() === '')
+        setCleanInput(false)
     }
 
     const handleClearClick =()=>{
