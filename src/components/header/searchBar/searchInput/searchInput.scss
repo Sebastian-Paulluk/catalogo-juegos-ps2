@@ -1,17 +1,12 @@
-@use '../../../scss/variables';
+@use '../../../../scss/variables';
 
 .search-product-input-container {
     width: 400px;
     border-radius: 5px;
-
     position: relative;
     overflow: hidden;
     border:1px solid white;
 
-    @media only screen and (max-width: 480px) {
-        width: 90%;
-        height: 38px;
-    }
     
     .searchIcon {
         position:absolute;

@@ -5,91 +5,103 @@
     height: variables.$header-height;
     font-family: variables.$font;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
+    justify-content: center;
     position: sticky;
     top: 0;
     z-index: 999;
+    padding-left: 20px;
+    padding-right: 45px;
 
-    .logo-container {
-        font-family: variables.$font2;
+    &__content{
         display: flex;
-        align-items: center;
         justify-content: center;
-        
-        .logo {
-            width: 60px;
-            opacity: 1;
-            transition: transform 0.5s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
-        
-            &.hidden {
-                transform: translateX(-100px);
-                opacity: 0;
-            }
-        }
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        max-width: variables.$main-container-max-width;
 
-        .brand-top {
-            font-size: 10px;
-            font-weight: 300;
-            opacity: 1;
-            transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
-        
-            &.hidden {
-                transform: translateX(200px);
-                opacity: 0;
+        .logo-container {
+            font-family: variables.$font2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .logo {
+                width: 60px;
+                opacity: 1;
+                transition: transform 0.5s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+            
+                &.hidden {
+                    transform: translateX(-100px);
+                    opacity: 0;
+                }
             }
-        }
-
-        .brand-bottom {
-            font-size: 10px;
-            font-weight: 300;
-            opacity: 1;
-            transition: transform 0.35s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
-        
-            &.hidden {
-                transform: translateX(100px);
-                opacity: 0;
+    
+            .brand-top {
+                font-size: 10px;
+                font-weight: 300;
+                opacity: 1;
+                transition: transform 0.2s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+            
+                &.hidden {
+                    transform: translateX(200px);
+                    opacity: 0;
+                }
             }
-        }
-
-        .games-ps2 {
-            font-size: 13px;
-            font-weight: 800;
-            position: relative;
-            margin-top: 2px;
-            opacity: 1;
-            transition: transform 0.5s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
-        
-            &.hidden {
-                transform: translateY(-100px);
-                opacity: 0;
+    
+            .brand-bottom {
+                font-size: 10px;
+                font-weight: 300;
+                opacity: 1;
+                transition: transform 0.35s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+            
+                &.hidden {
+                    transform: translateX(100px);
+                    opacity: 0;
+                }
             }
-
-            &::before {
-                content: "";
-                display: block;
-                border: 1px solid white;
-                position: absolute;
-                width: 100%;
-                top: -1px;
+    
+            .games-ps2 {
+                font-size: 13px;
+                font-weight: 800;
+                position: relative;
+                margin-top: 2px;
+                opacity: 1;
+                transition: transform 0.5s ease, opacity 0.2s ease-in, box-shadow 0.2s ease-in, background-color 0.2s ease;
+            
+                &.hidden {
+                    transform: translateY(-100px);
+                    opacity: 0;
+                }
+    
+                &::before {
+                    content: "";
+                    display: block;
+                    border: 1px solid white;
+                    position: absolute;
+                    width: 100%;
+                    top: -1px;
+                }
+            }
+        
+            .logo-text {
+                margin-left: 5px;
+                text-align: left;
+                display: flex;
+                flex-direction: column;
             }
         }
     
-        .logo-text {
-            margin-left: 5px;
-            text-align: left;
-            display: flex;
-            flex-direction: column;
+        a {
+            color: inherit;
+            text-decoration: none;
+    
+            &:visited {
+                color: inherit; 
+            }
         }
+        
     }
-
-    a {
-        color: inherit;
-        text-decoration: none;
-
-        &:visited {
-            color: inherit; 
-        }
-    }
+    
 }

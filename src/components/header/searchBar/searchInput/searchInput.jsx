@@ -1,9 +1,9 @@
 import './searchInput.scss';
-import searchIcon from '../../../assets/search.png';
+import searchIcon from '../../../../assets/search.png'
 import { useRef, useState } from 'react';
  import { useNavigate } from 'react-router-dom';
 
-const SearchInput =()=>{
+export const SearchInput =()=>{
      const navigate = useNavigate(); 
     const [clearIconHidden, setClearIconHidden] = useState(true)
     const inputRef = useRef(null);
@@ -70,5 +70,3 @@ const SearchInput =()=>{
         </div>
     )
 }
-
-export {SearchInput};
