@@ -68,9 +68,8 @@ export const SavedGamesDrawer =({open, onClose})=>{
                         <PersonalizedButton content='Eliminar todo' onClick={()=>clearSavedGamesList()} />
                         </div>
 
-                        {savedGames.map((game, index) => {
-                            const mountingDelay = (index + 1) * 0.03
-                            return  <DrawerGameCard game={game} key={game.id} mountingDelay={mountingDelay} open={open}/>
+                        {savedGames.map((game) => {
+                            return  <DrawerGameCard game={game} key={game.id} open={open}/>
                         })}
                     </>
                 )

@@ -4,7 +4,8 @@ import IndexCategory from '../indexCategory/indexCategory'
 import { CategoryIndexLocationContext } from '../../context/CategoryIndexLocationContext'
 
 export default function GameList({games}) {
-  const { currentLocation } = useContext(CategoryIndexLocationContext)
+  const { currentLocation, forceUpdate } = useContext(CategoryIndexLocationContext)
+  
   const refs = useRef({})
 
   useEffect(() => {
@@ -18,7 +19,7 @@ export default function GameList({games}) {
         behavior: 'smooth'
       })
     }
-  }, [currentLocation])
+  }, [currentLocation, forceUpdate])
 
   return (
     <div className='game-list'>

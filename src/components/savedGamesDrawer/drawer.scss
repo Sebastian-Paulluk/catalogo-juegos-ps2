@@ -1,3 +1,6 @@
+@use './../../scss/variables';
+
+
 //global
 $background-color: rgb(0, 0, 0);
 $text-color: rgb(255, 255, 255);
@@ -9,7 +12,7 @@ $header-height: 70px;
 $header-margin-bottom: 0px;
 $header-text-color: $text-color;
 $header-background-color: $background-color;
-$header-border-bottom-color: transparent;
+$header-border-bottom-color: $color4;
 
 //Content
 $content-text-color: $text-color;
@@ -74,7 +77,7 @@ $scroll-bar-hover-color: $text-color;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-inline: 30px;
+            padding-inline: 20px;
             margin-bottom: $header-margin-bottom;
             color: $header-text-color;
             background-color: $header-background-color;
@@ -105,15 +108,52 @@ $scroll-bar-hover-color: $text-color;
         }
 
         .no-saved-games-text{
-
             text-align: center;
         }
 
         .drawer-options{
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             display: flex;
             justify-content: space-between;
-            padding-inline: 40px;
+            padding-inline: 30px;
+            margin-left: 15px;
+            height: 35px;
+
+            button {
+                    padding: 5px 20px 5px 20px;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    border: 1px solid white;
+                    background-color: black;
+                    font-family: variables.$font;
+                    font-weight: 600;
+                    color: white;
+                    transition: all 0.2s ease;
+            }
+
+            &__copy-list-button{
+                &:hover {
+                    border-color: green;
+                    background-color: rgb(0, 14, 0);
+                }
+            
+                &:active {
+                    border-color: rgb(0, 156, 0);
+                    background-color: rgb(0, 46, 0);
+                }
+            }
+
+            &__empty-list-button{
+                &:hover {
+                    border-color: rgb(128, 0, 0);
+                    background-color: rgb(14, 0, 0);
+                }
+            
+                &:active {
+                    border-color: rgb(156, 0, 0);
+                    background-color: rgb(46, 0, 0);
+                }
+            }
         }
 
 
@@ -156,3 +196,4 @@ $scroll-bar-hover-color: $text-color;
         }
     }
 }
+

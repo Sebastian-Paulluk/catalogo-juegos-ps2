@@ -83,14 +83,13 @@ export const Drawer =({open, hideDrawer})=>{
                                 {contextHolder}
                                 <div className="drawer-options">
                                     <CopyToClipboard text={getSavedGamesList()}>
-                                        <PersonalizedButton content='Copiar lista' onClick={success}/>
+                                        <button className="drawer-options__copy-list-button" onClick={success}>Copiar lista</button>
                                     </CopyToClipboard>
-                                    <PersonalizedButton content='Eliminar todo' onClick={()=>clearSavedGamesList()} />
+                                    <button className="drawer-options__empty-list-button"onClick={()=>clearSavedGamesList()}>Vaciar lista</button>
                                 </div>
 
                                 {savedGames.map((game, index) => {
-                                    const mountingDelay = (index + 1) * 0.03
-                                    return  <DrawerGameCard game={game} key={game.id} mountingDelay={mountingDelay} open={open}/>
+                                    return  <DrawerGameCard game={game} key={game.id}  open={open}/>
                                 })}
                             </>
                         )

@@ -1,16 +1,18 @@
 @use '../../scss/variables';
 
+
 .game-card {
-    width: 150px;
-    height: 400px;
+    max-width: 200px;
+    height: 285px;
     border: 1px solid variables.$color7;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    overflow: hidden;
     opacity: 1;
+    overflow: hidden;
+    position: relative;
     transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.5s ease, border-color 0.5s ease;
 
     &.hidden {
@@ -23,52 +25,112 @@
         border-color: rgb(0, 255, 0);
     }
 
-    @media only screen and (max-width: 480px) {
-        width: 130px;
-        height: 370px;
-    }
 
 
-    .img-container{
-        width: 100%;
+    .img-container {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-end; 
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
 
         img {
-            width: 315px;
+            position: absolute; 
+            right: 0;
+            top: 0;
+            max-height: 100%;
+            width: auto; 
+            object-fit: cover;
+            object-position: right center; 
             cursor: pointer;
-
-            @media only screen and (max-width: 480px) {
-                width: 270px;
-            }
         }
     }
 
-    .name  {
-        text-align: center;
-        font-size: larger;
-        font-weight: 700;
-        margin-top: 10px;
-        margin-bottom: 5px;
+    .info-container {
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+
+        .name {
+            text-align: left;
+            font-weight: 700;
+            margin-top: 10px;
+            margin-inline: 10px;
+        }
+    
+        .sub-name {
+            text-align: left;
+            font-size: smaller;
+            margin-inline: 10px;
+        }
+    
+        .language-and-size {
+            margin-top: auto;
+            text-align: end;
+            padding-bottom: 5px;
+            padding-right: 7px;
+
+            color: variables.$color8;
+            font-size: smaller;
+        }
     }
 
-    .sub-name {
-        text-align: center;
-        margin-bottom: 10px;
+    .hp {
+        min-width: 200px;
     }
 
-    .language {
-        color: variables.$color8;
-        font-size: smaller;
+    .save-game-button {
+        z-index: 2;
+        position: absolute;
+        width: 50px;
+        top: 0px;
+        right: 0px;
+        border-radius: 50%;
+        padding: 5px 8px;
+        cursor: pointer;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        opacity: 1;
+
+        &.hidden {
+            transform: scale(0);
+            opacity: 0;
+        }
+        
+        &:hover {
+            transform: scale(1.1); 
+        }
+
+
     }
 
-    .size {
-        color: variables.$color8;
-        font-size: smaller;
+    .drop-game-button {
+        z-index: 2;
+        position: absolute;
+        width: 50px;
+        top: 0px;
+        right: 0px;
+        border-radius: 50%;
+        padding: 5px 8px;
+        cursor: pointer;
+        opacity: 1;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+
+        &.hidden {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        &:hover {
+            transform: scale(1.1); 
+        }
+
+
     }
 
-    button {
-        margin-top: auto;
-        margin-bottom: 25px;
-    }
+
 }
