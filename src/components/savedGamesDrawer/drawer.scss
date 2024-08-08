@@ -19,8 +19,8 @@ $content-text-color: $text-color;
 $content-background-color: $background-color;
 $content-padding-left: 0px;
 $content-padding-right: 5px;
-$content-padding-top: 30px;
-$content-padding-bottom: 30px;
+$content-padding-top: 10px;
+$content-padding-bottom: 10px;
 $content-gap: 10px;
 
 //Content scroll bar
@@ -72,93 +72,127 @@ $scroll-bar-hover-color: $text-color;
 
 
         &__header {
-            width: 100%;
-            height: $header-height;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-inline: 20px;
-            margin-bottom: $header-margin-bottom;
-            color: $header-text-color;
-            background-color: $header-background-color;
-            border-bottom: 1px solid $header-border-bottom-color;
 
-            &__title {
-                font-size: larger;
-                font-weight: bolder;
-            }
+            &__head {
+                width: 100%;
+                height: $header-height;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-inline: 20px;
+                margin-bottom: $header-margin-bottom;
+                color: $header-text-color;
+                background-color: $header-background-color;
+                border-bottom: 1px solid $header-border-bottom-color;
+                background-color: rgb(20, 20, 20);
 
-
-            &__close-button {
-                border: 1px solid transparent;
-                border-radius: 50%;
-                padding: 5px 10px;
-                color: rgb(180, 180, 180);
-                background-color: transparent;
-                font-weight: bolder;
-                font-size: large;
-                transition: border-color 0.2s ease, color 0.2s ease;
-                cursor: pointer;
-
-                &:hover {
-                    border-color: white;
-                    color: white;
+                &__title {
+                    font-size: larger;
+                    font-weight: bolder;
                 }
-            }
-        }
-
-        .no-saved-games-text{
-            text-align: center;
-        }
-
-        .drawer-options{
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: space-between;
-            padding-inline: 30px;
-            margin-left: 15px;
-            height: 35px;
-
-            button {
-                    padding: 5px 20px 5px 20px;
+    
+    
+                &__close-button {
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    padding: 5px 10px;
+                    color: rgb(180, 180, 180);
+                    background-color: transparent;
+                    font-weight: bolder;
+                    font-size: large;
+                    transition: border-color 0.2s ease, color 0.2s ease;
                     cursor: pointer;
-                    border-radius: 10px;
-                    border: 1px solid white;
-                    background-color: black;
-                    font-family: variables.$font;
-                    font-weight: 600;
-                    color: white;
-                    transition: all 0.2s ease;
-            }
-
-            &__copy-list-button{
-                &:hover {
-                    border-color: green;
-                    background-color: rgb(0, 14, 0);
-                }
-            
-                &:active {
-                    border-color: rgb(0, 156, 0);
-                    background-color: rgb(0, 46, 0);
+    
+                    &:hover {
+                        border-color: white;
+                        color: white;
+                    }
                 }
             }
 
-            &__empty-list-button{
-                &:hover {
-                    border-color: rgb(128, 0, 0);
-                    background-color: rgb(14, 0, 0);
+            &__bottom {
+                background-color: rgb(10, 10, 10);
+                height: 80px;
+                border-bottom: 1px solid $header-border-bottom-color;
+                display: flex;
+                justify-content: space-between;
+
+                .no-saved-games-text{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
                 }
-            
-                &:active {
-                    border-color: rgb(156, 0, 0);
-                    background-color: rgb(46, 0, 0);
+
+                &__info {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    .games-quantity {
+                        font-size: larger;
+                        word-spacing: 5px;
+                    }
+
+                    .total-size {
+                        word-spacing: 5px;
+                    }
+                }
+
+                &__drawer-options{
+                    width: 210px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 6px;
+                    padding-inline: 10px;
+
+                    button {
+                        padding: 5px 20px 5px 20px;
+                        cursor: pointer;
+                        border-radius: 10px;
+                        border: 1px solid white;
+                        background-color: rgb(10, 10, 10);
+                        font-family: variables.$font;
+                        font-weight: 600;
+                        color: white;
+                        transition: all 0.2s ease;
+                    }
+    
+                    &__copy-list-button{
+                        &:hover {
+                            border-color: green;
+                            background-color: rgb(0, 14, 0);
+                        }
+                    
+                        &:active {
+                            border-color: rgb(0, 156, 0);
+                            background-color: rgb(0, 46, 0);
+                        }
+                    }
+    
+                    &__empty-list-button{
+                        &:hover {
+                            border-color: rgb(128, 0, 0);
+                            background-color: rgb(14, 0, 0);
+                        }
+                    
+                        &:active {
+                            border-color: rgb(156, 0, 0);
+                            background-color: rgb(46, 0, 0);
+                        }
+                    }
                 }
             }
         }
 
 
         &__content {
-            height: calc(100% - $header-height - $header-margin-bottom);
+            height: calc(100% - $header-height - 80px - $header-margin-bottom);
             padding-top: $content-padding-top;
             padding-bottom: $content-padding-bottom;
             padding-left: $content-padding-left;

@@ -30,7 +30,7 @@ import { savedGamesContext } from "../../context/SavedGamesContext"
 export const Drawer =({open, hideDrawer})=>{
     const [visibility, setVisibility] = useState(open)
     const [messageApi, contextHolder] = message.useMessage();
-    const {savedGames,savedGameslistIsEmpty, clearSavedGamesList, getSavedGamesList} = useContext(savedGamesContext)
+    const {savedGames,savedGameslistIsEmpty, clearSavedGamesList, getSavedGamesList, totalQuantitySavedGames, totalSizeSavedList} = useContext(savedGamesContext)
 
     const lockScroll = () => {
         const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
@@ -72,27 +72,43 @@ export const Drawer =({open, hideDrawer})=>{
             <div className='drawer__background' onClick={hideDrawer} />
             <div className='drawer__menu'>
                 <div className='drawer__menu__header'>
-                    <div className='drawer__menu__header__title'> {drawerContent.title} </div>
-                    <button className='drawer__menu__header__close-button' onClick={hideDrawer}> X </button>
+                    <div className="drawer__menu__header__head">
+                        <div className='drawer__menu__header__head__title'> {drawerContent.title} </div>
+                        <button className='drawer__menu__header__head__close-button' onClick={hideDrawer}> X </button>
+                    </div>
+                    {contextHolder}
+                    <div className="drawer__menu__header__bottom">
+                        { savedGameslistIsEmpty() ? (
+                                <div className="no-saved-games-text">No hay juegos guardados</div>
+                            ) : (
+                                <>
+                                    <div className="drawer__menu__header__bottom__info">
+                                        <span className="games-quantity">{totalQuantitySavedGames()} {totalQuantitySavedGames() > 1 ? 'juegos' : 'juego'}</span>
+                                        <span className="total-size">{totalSizeSavedList()} GB</span>
+                                    </div>
+                                    <div className="drawer__menu__header__bottom__drawer-options">
+                                        { totalQuantitySavedGames() > 0 && 
+                                            <>
+                                                <CopyToClipboard text={getSavedGamesList()}>
+                                                    <button className="drawer__menu__header__bottom__drawer-options__copy-list-button" onClick={success}>Copiar lista</button>
+                                                </CopyToClipboard>
+                                                <button className="drawer__menu__header__bottom__drawer-options__empty-list-button"onClick={()=>clearSavedGamesList()}>Vaciar lista</button>
+                                            </>
+                                        }
+                                    </div>
+                                </>
+                            )
+                        }
+                        
+                    </div>
                 </div>
                 <div className='drawer__menu__content'>
-                    { savedGameslistIsEmpty() ? (
-                            <div className="no-saved-games-text">No hay juegos guardados</div>
-                        ) : (
-                            <>
-                                {contextHolder}
-                                <div className="drawer-options">
-                                    <CopyToClipboard text={getSavedGamesList()}>
-                                        <button className="drawer-options__copy-list-button" onClick={success}>Copiar lista</button>
-                                    </CopyToClipboard>
-                                    <button className="drawer-options__empty-list-button"onClick={()=>clearSavedGamesList()}>Vaciar lista</button>
-                                </div>
-
-                                {savedGames.map((game, index) => {
-                                    return  <DrawerGameCard game={game} key={game.id}  open={open}/>
-                                })}
-                            </>
-                        )
+                    { !savedGameslistIsEmpty() && 
+                        <>
+                            {savedGames.map((game, index) => {
+                                return  <DrawerGameCard game={game} key={game.id}  open={open}/>
+                            })}
+                        </>
                     }
                 </div>
             </div>
