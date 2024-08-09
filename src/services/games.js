@@ -445,5 +445,185 @@ export const games = [
         "size": 3.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138180/Buscando_a_nemo_ioqewv.jpg",
         "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161836/Buscando_a_nemo_-_copia_lgrffv.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "caballeros del zodiaco",
+        "sub_name": "the hades",
+        "language": "español",
+        "region": "pal",
+        "size": 3.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Caballeros_del_zodiaco_-_hader_cry8w2.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Caballeros_del_zodiaco_-_hader_-_copia_wtzzdl.jpg"
+    },
+    {
+        "name": "caballeros del zodiaco",
+        "sub_name": "el santuario",
+        "language": "español",
+        "region": "pal",
+        "size": 1.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Caballeros_del_zodiaco_-_santuario_ve5bph.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Caballeros_del_zodiaco_-_santuario_-_copia_wzejxn.jpg"
+    },
+    {
+        "name": "cabela’s",
+        "sub_name": "legendary adventures",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cabelas_Legendary_Adventures_fmb0xu.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Cabelas_Legendary_Adventures_-_copia_rj7c9c.jpg"
+    },
+    {
+        "name": "cabela’s",
+        "sub_name": "north american adventures",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cabelas_North_AmericanAdventures_mlrjju.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cabelas_North_AmericanAdventures_-_copia_fanaci.jpg"
+    },
+    {
+        "name": "cabela’s",
+        "sub_name": "monster bass",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Cabelas_North_monster_bass_zqjkfj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cabelas_North_monster_bass_-_copia_jmadt2.jpg"
+    },
+    {
+        "name": "cabela’s",
+        "sub_name": "trophy bucks",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Cabelas_Trophy_Bucks_fnskfb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cabelas_Trophy_Bucks_-_copia_upd9jr.jpg"
+    },
+    {
+        "name": "call of duty",
+        "sub_name": "world at war final fronts",
+        "language": "español",
+        "region": "pal",
+        "size": 3.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Call_Of_Duty_-_World_At_War_sva2cu.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Call_Of_Duty_-_World_At_War_-_copia_rxbczo.jpg"
+    },
+    {
+        "name": "call of duty 3",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Call_Of_Duty_3_uyf990.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Call_Of_Duty_3_-_copia_mdze7o.jpg"
+    },
+    {
+        "name": "cars",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 2.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Cars_dstwrl.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cars_-_copia_y9fwv1.jpg"
+    },
+    {
+        "name": "cars",
+        "sub_name": "la copa internacional de mate",
+        "language": "español",
+        "region": "pal",
+        "size": 2.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cars_-_La_Copa_Internacional_De_Mate_lodeyb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cars_-_La_Copa_Internacional_De_Mate_-_copia_clvipy.jpg"
+    },
+    {
+        "name": "cars",
+        "sub_name": "race o rama",
+        "language": "español",
+        "region": "pal",
+        "size": 3.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cars_-_Race_O_Rama_jqwvn5.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cars_-_Race_O_Rama_-_copia_yesfsk.jpg"
+    },
+    {
+        "name": "champions",
+        "sub_name": "return to arms",
+        "language": "español",
+        "region": "pal",
+        "size": 4.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224577/Champions_-_Return_To_Arms__jaqmfc.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Champions_-_Return_To_Arms__-_copia_usqh0t.jpg"
+    },
+    {
+        "name": "champions of norrath",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 7.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Champions_Of_Norrath_w0yifi.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Champions_Of_Norrath_-_copia_rljafk.jpg"
+    },
+    {
+        "name": "chicken little",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 1.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Chicken_Little_mpilhx.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Chicken_Little_-_copia_nwn0h3.jpg"
+    },
+    {
+        "name": "colosseum",
+        "sub_name": "road to freedom uncut",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 2.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224579/Colosseum_-_Road_To_Freedom_pwrrnh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Colosseum_-_Road_To_Freedom_-_copia_rxxs7d.jpg"
+    },
+    {
+        "name": "crash",
+        "sub_name": "la venganza de cortex",
+        "language": "español",
+        "region": "pal",
+        "size": 0.5,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Crash_la_venganza_de_cortex_j41emp.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Crash_la_venganza_de_cortex_-_copia_dnngli.jpg"
+    },
+    {
+        "name": "crash",
+        "sub_name": "mind over mutant",
+        "language": "español",
+        "region": "pal",
+        "size": 3.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Crash_Mind_Over_Mutant_t7yc81.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Crash_Mind_Over_Mutant_-_copia_kvhauc.jpg"
+    },
+    {
+        "name": "crash",
+        "sub_name": "of the titans",
+        "language": "español",
+        "region": "pal",
+        "size": 2.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Crash_Of_The_Titans_texuh7.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Crash_Of_The_Titans_-_copia_ybfrs2.jpg"
     }
+
+
+
+
+
 ]
