@@ -14,7 +14,7 @@ export const DrawerGameCard =({game})=>{
     return(
         <div className={`drawer-game-card`}>
             <div className='img-container'>
-                <img src={game.image} alt={game.name}></img>
+                <img src={game.thumbnail} alt={game.name}></img>
             </div> 
             <div className='name-container'>
                 <span className='name'>{capitalizeWords(game.name)}</span>

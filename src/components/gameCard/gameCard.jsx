@@ -36,9 +36,7 @@ export default function GameCard({game, mountingDelay}) {
     return (
         <>
             <div className={`game-card ${visibility ? '' : 'hidden'} ${gameInSavedList(game) ? 'saved' : ''}`}>
-                <div className='img-container'>
-                    <img src={game.image} alt={`${game.name} ${game.sub_name}`} onClick={handleOpenModal}></img>
-                </div>
+                <img src={game.thumbnail} alt={`${game.name} ${game.sub_name}`} onClick={handleOpenModal}></img>
                 <div className='info-container'>
                     <span className='name'>{name}</span>
                     { game.sub_name === '' ? (
