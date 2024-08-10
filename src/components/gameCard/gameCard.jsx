@@ -38,6 +38,7 @@ export default function GameCard({game, mountingDelay}) {
 
     const handleSaveGameClick = (game) => {
         toggleGameOnSavedList(game);
+        setOpenGameInfoPanel(false)
     };
 
     const handleOpenModal = () => {
