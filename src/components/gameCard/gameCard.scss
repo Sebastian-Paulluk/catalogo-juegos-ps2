@@ -30,6 +30,16 @@
         font-size: 14px;
     }
 
+    @media only screen and (max-width: 450px) {
+        height: 200px;
+        font-size: 14px;
+    }
+
+    @media only screen and (max-width: 380px) {
+        height: 150px;
+        font-size: 14px;
+    }
+
 
     img {
         position: absolute; 
@@ -50,12 +60,11 @@
         display: flex;
         flex-direction: column;
         bottom: 0;
-        background-color: rgba(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        transition: all 0.3s ease;
+        border-top: 1px solid variables.$color7;
 
-        @media only screen and (max-width: 590px) {
-            height: 80px;
-        }
-
+        
         .name {
             text-align: left;
             font-weight: 700;
@@ -74,10 +83,88 @@
             text-align: end;
             padding-bottom: 5px;
             padding-right: 7px;
-
             color: variables.$color8;
             font-size: smaller;
         }
+
+        .open-info-container-button {
+            position: absolute;
+            border: none;
+            top:-20px;
+            left: 5px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(0, 0, 0, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+            transition: all 0.2s ease;
+
+            &:hover {
+                transform: scale(1.1); 
+            }
+
+            img {
+                transition: all 0.3s ease;
+            }
+        }
+
+        @media only screen and (max-width: 590px) {
+            height: 25px;
+        
+            .name, .sub-name {
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.4s ease;
+            }
+            .name {
+                transform: translateY(-15px);
+            }
+            .sub-name {
+                transform: translateY(-40px);
+            }
+
+            .open-info-container-button {
+                display: block;
+            }
+        
+            &.open {
+                height: 130px;
+        
+                .name, .sub-name {
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+                .name {
+                    transform: translateY(0px);
+                }
+                .sub-name {
+                    transform: translateY(5px);
+                }
+        
+                .name {
+                    margin-top: 30px;
+                }
+
+                .open-info-container-button{
+
+                    img {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+
+            .language-and-size {
+                position: absolute;
+                padding: 0;
+                bottom: 5px;
+                right: 7px;
+            }
+        }
+
     }
 
     .hp {
