@@ -14,15 +14,24 @@
     width: 100%;
 
     .search-content{
-        width: 100%;
+        max-width: variables.$main-container-max-width;
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 20px;
+        padding: 20px 20px 50px 20px;
 
-        @media only screen and (max-width: 430px) {
+
+        @media only screen and (max-width: 930px) {
+            gap: 17px;
+        }
+
+        @media only screen and (max-width: 750px) {
+            gap: 14px;
+        }
+
+        @media only screen and (max-width: 590px) {
             gap: 10px;
         }
     }
-
 }

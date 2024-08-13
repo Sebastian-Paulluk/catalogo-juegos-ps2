@@ -620,10 +620,252 @@ export const games = [
         "size": 2.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Crash_Of_The_Titans_texuh7.jpg",
         "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Crash_Of_The_Titans_-_copia_ybfrs2.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "darkwatch",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Darkwatch_mjviam.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Darkwatch_-_copia_zfze0y.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "infinite world",
+        "language": "español",
+        "region": "pal",
+        "size": 2.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Dragon_Ball_Z_Infinite_Word_m7jkxe.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589712/Dragon_Ball_Z_Infinite_Word_-_copia_rama63.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "sagas",
+        "language": "español",
+        "region": "ntsc",
+        "size": 1.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Dragon_Ball_Z_Sagas_s4pc88.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589713/Dragon_Ball_Z_Sagas_-_copia_jlr8gw.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "budokai",
+        "language": "español",
+        "region": "pal",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Dragon_Ball_Z_Budokai_fkbto0.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_-_copia_pdsra0.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "budokai 2",
+        "language": "español",
+        "region": "pal",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Dragon_Ball_Z_Budokai_2_uk0kdf.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_2_-_copia_nozqmr.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "budokai 3",
+        "language": "español",
+        "region": "pal",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Dragon_Ball_Z_Budokai_3_dljqho.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_3_-_copia_pdjohf.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "budokai 3 collectors edition",
+        "language": "español",
+        "region": "pal",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Dragon_Ballz_Budokai_3_Collection_ddqvon.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dragon_Ballz_Budokai_3_Collection_-_copia_wcj7n1.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "budokai tenkaichi 3",
+        "language": "español",
+        "region": "pal",
+        "size": 3.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Dragon_Ball_Z_Budokai_Tenkaichi_3_iezej1.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_Tenkaichi_3_-_copia_gerbvk.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "tenkaichi",
+        "language": "español",
+        "region": "pal",
+        "size": 4.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Dragon_Ball_Budokai_Tenkaichi_f6ykxp.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dragon_Ball_Budokai_Tenkaichi_-_copia_l7t6ae.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "tenkaichi 2",
+        "language": "español",
+        "region": "pal",
+        "size": 2.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Dragon_Ball_Z_-_Budokai_Tenkaichi_2_fdocmh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_-_Budokai_Tenkaichi_2_-_copia_afpaqs.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "tenkaichi 3 (latino)",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Dragon_Ball_Z_Budokai_Tenkaichi_3_iezej1.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589712/Dragon_Ball_Z_Budokai_Tenkaichi_3_-_Version_Latino_-_copia_sw9zaj.jpg"
+    },
+    {
+        "name": "dragon ball z",
+        "sub_name": "tenkaichi 4",
+        "language": "español",
+        "region": "ntsc",
+        "size": 5.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/dbz_budokai_tenkaichi_4_tava58.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/dbz_budokai_tenkaichi_4_-_copia_rgebd6.jpg"
+    },
+    {
+        "name": "def jam",
+        "sub_name": "fight for ny",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Def_Jam_Fight_Fo_Ny_qa8bgq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Def_Jam_Fight_Fo_Ny_-_copia_ionpcm.jpg"
+    },
+    {
+        "name": "def jam",
+        "sub_name": "vendetta",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 2.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Def_Jam_vendetta_impl1h.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Def_Jam_vendetta_-_copia_wxvoe7.jpg"
+    },
+    {
+        "name": "depredador",
+        "sub_name": "jungla de cristal",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 3.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Predator_-_Concrete_Jungle__olcye3.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589713/Predator_-_Concrete_Jungle__-_copia_cavicl.jpg"
+    },
+    {
+        "name": "devil may cry",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Devil_May_Cry_exbgl1.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Devil_May_Cry_-_copia_hf3kaz.jpg"
+    },
+    {
+        "name": "devil may cry 2",
+        "sub_name": "disco 1 dante",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Devil_May_Cry_2_zq94ok.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Devil_May_Cry_2_-_copia_jk7ygm.jpg"
+    },
+    {
+        "name": "devil may cry 2",
+        "sub_name": "disco 2 lucia",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Devil_May_Cry_2_zq94ok.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Devil_May_Cry_2_-_copia_jk7ygm.jpg"
+    },
+    {
+        "name": "devil may cry 3",
+        "sub_name": "dantes awakening special edition",
+        "language": "español",
+        "region": "pal",
+        "size": 4.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Devil_May_Cry_3_Edicion_Especial_kkhqlj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Devil_May_Cry_3_Edicion_Especial_-_copia_dympkl.jpg"
+    },
+    {
+        "name": "digimon",
+        "sub_name": "rumble arena 2",
+        "language": "español",
+        "region": "pal",
+        "size": 1.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Digimon_Rumble_Arena_2_la18jd.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Digimon_Rumble_Arena_2_-_copia_xuzvig.jpg"
+    },
+    {
+        "name": "digimon world",
+        "sub_name": "data squad",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 2.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Digimon_World_Data_Squad_x0zu4b.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Digimon_World_Data_Squad_-_copia_andiyo.jpg"
+    },
+    {
+        "name": "digimon world 4",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 1.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Digimon_World_4_mphbes.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Digimon_World_4_-_copia_k9yph3.jpg"
+    },
+    {
+        "name": "disney princesas",
+        "sub_name": "viaje encantado",
+        "language": "español",
+        "region": "pal",
+        "size": 3.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Disney_Princesas_-_Un_Vieje_Encantado_gpfwjk.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Disney_Princesas_-_Un_Vieje_Encantado_-_copia_pno211.jpg"
+    },
+    {
+        "name": "dora",
+        "sub_name": "salva a la princesa de la nieve",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 1.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Dora_The_Explorer_-_Dora_Saves_The_Snow_Princess_cgityi.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dora_The_Explorer_-_Dora_Saves_The_Snow_Princess_-_copia_nczde2.jpg"
+    },
+    {
+        "name": "dora",
+        "sub_name": "salva el reino de cristal",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 1.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Dora_Save_The_Crystal_Kingdom_yu47u7.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Dora_Save_The_Crystal_Kingdom_-_copia_devl1z.jpg"
+    },
+    {
+        "name": "dora",
+        "sub_name": "viaje al planeta violeta",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 0.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Dora_The_Explorer_-_Journey_To_The_Purple_Planet_stfvyu.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dora_The_Explorer_-_Journey_To_The_Purple_Planet_-_copia_acfyyv.jpg"
     }
-
-
-
-
+    
 
 ]
