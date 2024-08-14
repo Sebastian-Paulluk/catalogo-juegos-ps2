@@ -25,12 +25,10 @@
     }
 
     @media only screen and (max-width: 590px) {
-        height: 250px;
         font-size: 14px;
     }
 
     @media only screen and (max-width: 450px) {
-        height: 200px;
         font-size: 14px;
     }
 
@@ -75,15 +73,18 @@
         }
     
         .language-and-size {
+            position: absolute;
             font-family: variables.$font2;
             opacity: 0;
+            bottom: 5px;
+            right: 7px;
             margin-top: auto;
             text-align: end;
-            padding-bottom: 5px;
-            padding-right: 7px;
+            padding: 0;
             color: variables.$color8;
             font-size: smaller;
             transition: opacity 0.5s ease;
+            pointer-events: none;
         }
 
         .open-info-container-button {
@@ -135,6 +136,7 @@
 
             .language-and-size {
                 opacity: 1;
+                pointer-events: all;
             }
 
             .open-info-container-button{
@@ -145,12 +147,7 @@
             }
         }
 
-        .language-and-size {
-            position: absolute;
-            padding: 0;
-            bottom: 5px;
-            right: 7px;
-        }
+        
         
 
     }
