@@ -10,7 +10,8 @@ import { SavedGamesProvider } from './context/SavedGamesContext';
 
 
 function App() {
-/*   useEffect(() => {
+/*   
+  useEffect(() => {
     const initializeData = async () => {
       await exportMyData(games);
     };

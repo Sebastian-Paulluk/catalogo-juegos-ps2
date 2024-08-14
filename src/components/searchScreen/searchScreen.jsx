@@ -13,14 +13,13 @@ export const SearchScreen =()=> {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(()=>{
-
         getGamesByNameOrSubName(searchedText)
             .then(response => {
                 setFilteredGames(response)
                 setIsLoading(false)
             })
             .catch(error => console.log(error))
-
+            
         return () => setIsLoading(true)
     }, [searchedText])
 

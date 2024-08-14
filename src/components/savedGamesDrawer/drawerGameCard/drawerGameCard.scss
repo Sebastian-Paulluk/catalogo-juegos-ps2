@@ -4,7 +4,9 @@
     position: relative;
     color: white;
     width: 100%;
-    border-top: 1px solid variables.$color8;
+    border: 1px solid variables.$color8;
+    border-left: none;
+    border-top-right-radius: 10px;
     height: 75px;
     overflow: hidden;
     opacity: 1;
@@ -27,14 +29,16 @@
         img {
             height: 110px;
             width: 500px;
+            cursor: pointer;
         }
     }
 
     .name-container{
-        width: 155px;
+        width: 165px;
         padding: 5px 10px 5px 10px;
         display: flex;
         flex-direction: column;
+        
         .name {
             font-weight: bolder;
         }
@@ -43,27 +47,63 @@
     .info-container{
         font-size: smaller;
         color: variables.$color8;
-        padding-top: 5px;
-        width: 90px;
+        width: 80px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5px
-    }
+        justify-content: center;
 
-    .discard-img{
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        right: 2px;
-        top:2px;
-        cursor: pointer;
-        opacity: 1;
-        transition: opacity 1s ease;
+        @media only screen and (max-width: 590px) {
+            font-size: small;
+        }
 
-    
-        &.hidden {
-            opacity: 0;
+        .language-container {
+            border-bottom: 1px solid variables.$color8;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 3px;
+        }
+
+        .game-size-container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 3px;
+            font-family: variables.$font2;
+
+            @media only screen and (max-width: 590px) {
+                padding-top: 4px;
+            }
         }
     }
+
+    .discard-button {
+        border: 1px solid variables.$color5;
+        position: absolute;
+        border-radius: 50%;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 5px;
+        top: 5px;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.2);
+            border-color: variables.$color8;
+            padding: 2px;
+        }
+
+        .discard-img{
+            width: 17px;
+            height: 17px;
+        }
+    }
+    
 }
+

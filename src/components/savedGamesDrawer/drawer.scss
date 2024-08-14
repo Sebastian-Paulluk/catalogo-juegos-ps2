@@ -83,7 +83,7 @@ $scroll-bar-hover-color: $text-color;
                 margin-bottom: $header-margin-bottom;
                 color: $header-text-color;
                 background-color: $header-background-color;
-                border-bottom: 1px solid $header-border-bottom-color;
+                border-bottom: 1px solid $color3;
                 background-color: rgb(20, 20, 20);
 
                 &__title {
@@ -111,7 +111,7 @@ $scroll-bar-hover-color: $text-color;
             }
 
             &__bottom {
-                background-color: rgb(10, 10, 10);
+                background-color: rgb(20, 20, 20);
                 height: 80px;
                 border-bottom: 1px solid $header-border-bottom-color;
                 display: flex;
@@ -133,11 +133,13 @@ $scroll-bar-hover-color: $text-color;
                     gap: 10px;
 
                     .games-quantity {
+                        font-family: variables.$font2;
                         font-size: larger;
                         word-spacing: 5px;
                     }
 
                     .total-size {
+                        font-family: variables.$font2;
                         word-spacing: 5px;
                     }
                 }
@@ -145,14 +147,13 @@ $scroll-bar-hover-color: $text-color;
                 &__drawer-options{
                     width: 210px;
                     display: flex;
-                    flex-direction: column;
                     align-items: center;
                     justify-content: center;
                     gap: 6px;
                     padding-inline: 10px;
 
                     button {
-                        padding: 5px 20px 5px 20px;
+                        padding: 10px 20px 10px 20px;
                         cursor: pointer;
                         border-radius: 10px;
                         border: 1px solid white;
@@ -230,4 +231,6 @@ $scroll-bar-hover-color: $text-color;
         }
     }
 }
+
+
 

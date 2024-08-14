@@ -1,10 +1,11 @@
 import { useContext, useEffect, useState } from "react"
 import './drawer.scss'
 import { DrawerGameCard } from "./drawerGameCard/drawerGameCard"
-import { PersonalizedButton } from "../button/button"
 import { message } from "antd"
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { savedGamesContext } from "../../context/SavedGamesContext"
+import { Popconfirm } from 'antd';
+import { QuestionCircleOutlined } from '@ant-design/icons';
 
 /* USO:
 
@@ -92,7 +93,16 @@ export const Drawer =({open, hideDrawer})=>{
                                                 <CopyToClipboard text={getSavedGamesList()}>
                                                     <button className="drawer__menu__header__bottom__drawer-options__copy-list-button" onClick={success}>Copiar lista</button>
                                                 </CopyToClipboard>
-                                                <button className="drawer__menu__header__bottom__drawer-options__empty-list-button"onClick={()=>clearSavedGamesList()}>Vaciar lista</button>
+                                                <Popconfirm
+                                                    placement="bottomRight"
+                                                    title='¿Descartar todos los juegos?'
+                                                    okText="Si"
+                                                    cancelText="No"
+                                                    onConfirm={clearSavedGamesList}
+                                                    icon={<QuestionCircleOutlined style={{color: 'red',}}/>}
+                                                >
+                                                    <button className="drawer__menu__header__bottom__drawer-options__empty-list-button">Vaciar lista</button>
+                                                </Popconfirm>
                                             </>
                                         }
                                     </div>
@@ -106,7 +116,7 @@ export const Drawer =({open, hideDrawer})=>{
                     { !savedGameslistIsEmpty() && 
                         <>
                             {savedGames.map((game, index) => {
-                                return  <DrawerGameCard game={game} key={game.id}  open={open}/>
+                                return  <DrawerGameCard game={game} key={game.id} closeDrawer={hideDrawer} open={open}/>
                             })}
                         </>
                     }

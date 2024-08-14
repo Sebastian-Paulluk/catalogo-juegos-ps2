@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react"
 import './modal.scss'
 
-export const Modal =({onClose, open, game})=>{
+export const Modal =({onClose, open, game, handleScrollBar=true})=>{
     const [visibility, setVisibility] = useState(open)
 
     const lockScroll = () => {
         const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth
         document.body.style.overflow = 'hidden'
         document.body.style.paddingRight = `${scrollbarWidth}px`
-        
     }
 
     const unlockScroll = () => {
@@ -18,10 +17,12 @@ export const Modal =({onClose, open, game})=>{
     
     useEffect(() => {
         setVisibility(open)
-        open ? lockScroll() : unlockScroll()
-
-        return () => unlockScroll()
-    }, [open]);
+        if (handleScrollBar) {
+            open ? lockScroll() : unlockScroll()
+        }
+        
+        return () => handleScrollBar && unlockScroll()
+    }, [open, handleScrollBar]);
 
     return (
         <div className={`modal ${visibility ? '': 'hidden'}`}>
