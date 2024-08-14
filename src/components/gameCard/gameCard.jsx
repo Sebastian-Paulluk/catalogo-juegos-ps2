@@ -56,7 +56,7 @@ export default function GameCard({game, mountingDelay}) {
     return (
         <>
             <div ref={cardRef} className={`game-card ${visibility ? '' : 'hidden'} ${gameInSavedList(game) ? 'saved' : ''}`}>
-                <img src={game.thumbnail} alt={`${game.name} ${game.sub_name}`} onClick={handleOpenModal}></img>
+                <img className='game-card-image' src={game.thumbnail} alt={`${game.name} ${game.sub_name}`} onClick={handleOpenModal}></img>
                 <div className={`info-container ${openGameInfoPanel ? 'open' : ''}`}>
                     <span className='name'>{name}</span>
                     { game.sub_name === '' ? (
@@ -70,7 +70,6 @@ export default function GameCard({game, mountingDelay}) {
                         <img className='open-info-panel-button-img' src={arrowUp} alt='arrow-up'></img>
                     </button>
                 </div>
-                <div className='hp'></div>
                 <img className={`save-game-button ${savedState ? '' : 'hidden'}`} src={radioChecked} onClick={()=>handleSaveGameClick(game)} alt='save-game-button'></img>
                 <img className={`drop-game-button ${savedState ? 'hidden' : ''}`} src={radioUnchecked} onClick={()=>handleSaveGameClick(game)} alt='drop-game-button'></img>
             </div>

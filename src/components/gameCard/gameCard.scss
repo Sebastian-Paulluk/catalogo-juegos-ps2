@@ -3,7 +3,6 @@
 
 .game-card {
     max-width: 200px;
-    height: 285px;
     border: 1px solid variables.$color7;
     border-radius: 10px;
     display: flex;
@@ -37,129 +36,122 @@
 
 
 
-    img {
-        position: absolute; 
-        right: 0;
-        top: 0;
+    .game-card-image {
+        height: 100%;
         width: 100%;
-        
-        object-fit: cover;
-        object-position: right center; 
         cursor: pointer;
     }
 
 
     .info-container {
-        height: 80px;
+        height: 0px;
         width: 100%;
-        position: absolute;
         display: flex;
-        flex-direction: column;
+        position: absolute;
         bottom: 0;
-        background-color: rgba(0, 0, 0);
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
         transition: all 0.3s ease;
-        border-top: 1px solid variables.$color7;
 
+        .name, .sub-name {
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
         
         .name {
             text-align: left;
             font-weight: 700;
             margin-top: 10px;
             margin-inline: 10px;
+            transform: translateY(-15px);
         }
     
         .sub-name {
             text-align: left;
             font-size: smaller;
             margin-inline: 10px;
+            transform: translateY(-40px);
         }
     
         .language-and-size {
+            font-family: variables.$font2;
+            opacity: 0;
             margin-top: auto;
             text-align: end;
             padding-bottom: 5px;
             padding-right: 7px;
             color: variables.$color8;
             font-size: smaller;
+            transition: opacity 0.5s ease;
         }
 
         .open-info-container-button {
             position: absolute;
-            border: none;
-            top:-20px;
-            left: 5px;
+            border: 1px solid variables.$color7;
+            top: -32px;
+            left: 2px;
             border-radius: 50%;
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             background-color: rgba(0, 0, 0, 1);
             display: flex;
             justify-content: center;
             align-items: center;
-            display: none;
+            display: block;
             transition: all 0.2s ease;
+            cursor: pointer;
 
             &:hover {
                 transform: scale(1.1); 
             }
 
             img {
+                width: 100%;
                 transition: all 0.3s ease;
             }
         }
 
-        @media only screen and (max-width: 590px) {
-            height: 25px;
         
+        &.open {
+            height: 130px;
+            border-top: 1px solid variables.$color7;
+    
             .name, .sub-name {
-                opacity: 0;
-                visibility: hidden;
-                transition: all 0.4s ease;
+                opacity: 1;
+                visibility: visible;
             }
+
             .name {
-                transform: translateY(-15px);
+                transform: translateY(0px);
             }
             .sub-name {
-                transform: translateY(-40px);
+                transform: translateY(5px);
             }
-
-            .open-info-container-button {
-                display: block;
-            }
-        
-            &.open {
-                height: 130px;
-        
-                .name, .sub-name {
-                    opacity: 1;
-                    visibility: visible;
-                }
-
-                .name {
-                    transform: translateY(0px);
-                }
-                .sub-name {
-                    transform: translateY(5px);
-                }
-        
-                .name {
-                    margin-top: 30px;
-                }
-
-                .open-info-container-button{
-
-                    img {
-                        transform: rotate(180deg);
-                    }
-                }
+    
+            .name {
+                margin-top: 25px;
             }
 
             .language-and-size {
-                position: absolute;
-                padding: 0;
-                bottom: 5px;
-                right: 7px;
+                opacity: 1;
+            }
+
+            .open-info-container-button{
+                top: -17px;
+                img {
+                    transform: rotate(180deg);
+                }
             }
         }
+
+        .language-and-size {
+            position: absolute;
+            padding: 0;
+            bottom: 5px;
+            right: 7px;
+        }
+        
 
     }
 
