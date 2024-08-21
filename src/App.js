@@ -10,15 +10,16 @@ import { SavedGamesProvider } from './context/SavedGamesContext';
 
 
 function App() {
-/*   
+   
   useEffect(() => {
     const initializeData = async () => {
       await exportMyData(games);
     };
 
     initializeData();
-  }, []);  */
+  }, []);  
 
+  
   return (
     <div className="App">
       <SavedGamesProvider>

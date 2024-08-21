@@ -279,7 +279,6 @@ export const games = [
 
 
 
-
     {
         "name": "bad boys",
         "sub_name": "miami takedown",
@@ -287,7 +286,7 @@ export const games = [
         "region": "pal",
         "size": 3.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138179/Bad_Boys_-_Miami_Takedown_wqk7ge.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161825/Bad_Boys_-_Miami_Takedown_-_copia_f95poo.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262316/Bad_Boys_-_Miami_Takedown_-_copia_hbnqtm.jpg"
     },
     {
         "name": "barbie",
@@ -296,7 +295,7 @@ export const games = [
         "region": "pal",
         "size": 3.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138162/Barbie_-_12_princesas_bailarinas_igwgbe.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161825/Barbie_-_12_princesas_bailarinas_-_copia_y54zug.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262316/Barbie_-_12_princesas_bailarinas_-_copia_p321ny.jpg"
     },
     {
         "name": "batman",
@@ -305,7 +304,7 @@ export const games = [
         "region": "pal",
         "size": 0.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138173/Batman_-_Vengeance_eex7yp.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161827/Batman_-_Vengeance_-_copia_t8ns7m.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262317/Batman_-_Vengeance_-_copia_bfpsdu.jpg"
     },
     {
         "name": "batman",
@@ -314,7 +313,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138161/batman_-_nbegins_bp9nrc.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161826/batman_-_nbegins_-_copia_zhdkkn.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262316/batman_-_nbegins_-_copia_hhjqdq.jpg"
     },
     {
         "name": "batman",
@@ -323,7 +322,7 @@ export const games = [
         "region": "ntsc",
         "size": 3.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138172/Batman_-_Rise_of_Sin_Tzu_onabbf.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161826/Batman_-_Rise_of_Sin_Tzu_-_copia_hghb1q.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262316/Batman_-_Rise_of_Sin_Tzu_-_copia_upedqg.jpg"
     },
     {
         "name": "bee movie",
@@ -332,7 +331,7 @@ export const games = [
         "region": "pal",
         "size": 2.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138425/bee_movie_dsgtvo.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161827/bee_movie_-_copia_enjk76.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262316/bee_movie_-_copia_pwqnyn.jpg"
     },
     {
         "name": "ben 10",
@@ -341,7 +340,7 @@ export const games = [
         "region": "ntsc",
         "size": 2.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138176/ben_10_-_alien_force_mo7ad4.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161828/ben_10_-_alien_force_-_copia_v6gaa8.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262317/ben_10_-_alien_force_-_copia_rt5laz.jpg"
     },
     {
         "name": "ben 10",
@@ -350,7 +349,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138425/Ben_10_-_Cosmic_destruction_tqyeal.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161828/Ben_10_-_Cosmic_destruction_-_copia_wqr6xi.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262317/Ben_10_-_Cosmic_destruction_-_copia_y96egs.jpg"
     },
     {
         "name": "ben 10",
@@ -359,7 +358,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138162/Ben_10_-_vilgax_attack_tqx1jq.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161830/Ben_10_-_vilgax_attack_-_copia_b39me0.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262317/Ben_10_-_vilgax_attack_-_copia_qsmo9z.jpg"
     },
     {
         "name": "ben 10",
@@ -368,7 +367,7 @@ export const games = [
         "region": "pal",
         "size": 3.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138162/Ben_10_-_protector_of_earth_phhnq2.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161829/Ben_10_-_protector_of_earth_-_copia_vnseti.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262318/Ben_10_-_protector_of_earth_-_copia_jrf1gz.jpg"
     },
     {
         "name": "black",
@@ -377,7 +376,7 @@ export const games = [
         "region": "pal",
         "size": 3.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138175/Black_ipmbaf.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161829/Black_-_copia_mantlj.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262318/Black_-_copia_f5gjey.jpg"
     },
     {
         "name": "bolt",
@@ -386,7 +385,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138165/bol_vtruc7.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161831/bol_-_copia_xeniee.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262318/bol_-_copia_iw6izq.jpg"
     },
     {
         "name": "bratz",
@@ -395,7 +394,7 @@ export const games = [
         "region": "pal",
         "size": 2.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138162/bratz_-_the_movie_dmaqa5.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161831/bratz_-_the_movie_-_copia_jlbwjb.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262318/bratz_-_the_movie_-_copia_nlhsbz.jpg"
     },
     {
         "name": "bully",
@@ -404,7 +403,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138162/bully_qypbkw.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161832/bully_-_copia_qbdels.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262319/bully_-_copia_mckhid.jpg"
     },
     {
         "name": "burnout",
@@ -413,7 +412,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138161/burnout_-_dominator_e6glgm.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161834/burnout_-_dominator_-_copia_pbfdhu.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262320/burnout_-_dominator_-_copia_n5gtyt.jpg"
     },
     {
         "name": "burnout",
@@ -422,7 +421,7 @@ export const games = [
         "region": "pal",
         "size": 3.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138185/burnout_-_revenge_yvmypy.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161834/burnout_-_revenge_-_copia_vlh3ui.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262321/burnout_-_revenge_-_copia_rfkhyt.jpg"
     },
     {
         "name": "burnout",
@@ -431,7 +430,7 @@ export const games = [
         "region": "pal",
         "size": 3.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138162/burnout_u3btpd.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161833/burnout_-_copia_e0nqgi.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262320/burnout_-_copia_ajrvu6.jpg"
     },
     {
         "name": "burnout 2",
@@ -440,7 +439,7 @@ export const games = [
         "region": "pal",
         "size": 3.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138176/burnout_2_-_point_of_impact_saiijq.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161836/burnout_2_-_point_of_impact_-_copia_l0p8et.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262321/burnout_2_-_point_of_impact_-_copia_ad3j6x.jpg"
     },
     {
         "name": "burnout 3",
@@ -449,7 +448,7 @@ export const games = [
         "region": "pal",
         "size": 3.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138161/burnout_3_-_takedown_e4i3zh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161833/burnout_3_-_takedown_-_copia_tiqgqv.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262319/burnout_3_-_takedown_-_copia_uyt73x.jpg"
     },
     {
         "name": "buscando a nemo",
@@ -458,8 +457,13 @@ export const games = [
         "region": "pal",
         "size": 3.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723138180/Buscando_a_nemo_ioqewv.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723161836/Buscando_a_nemo_-_copia_lgrffv.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724262321/Buscando_a_nemo_-_copia_l70a9u.jpg"
     },
+    
+    
+
+
+
 
 
 
