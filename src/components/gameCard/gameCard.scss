@@ -167,7 +167,8 @@
         cursor: pointer;
         transition: opacity 0.2s ease, transform 0.2s ease;
         opacity: 1;
-
+        filter: drop-shadow(0px 0px 2px black);
+        
         &.hidden {
             transform: scale(0);
             opacity: 0;
@@ -191,6 +192,8 @@
         cursor: pointer;
         opacity: 1;
         transition: opacity 0.2s ease, transform 0.2s ease;
+        filter: drop-shadow(0px 0px 3px black);
+
 
         &.hidden {
             transform: scale(0);
@@ -198,9 +201,8 @@
         }
 
         &:hover {
-            transform: scale(1.1); 
+            transform: scale(1.1);
         }
-
 
     }
 
