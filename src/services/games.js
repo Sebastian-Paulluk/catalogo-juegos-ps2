@@ -6,7 +6,7 @@ export const games = [
         "region": "pal",
         "size": 3.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158701/007_agente_en_fuego_cruzado_d5u1fc.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158697/007_agente_en_fuego_cruzado_-_copia_yl54ea.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724200333/007_agente_en_fuego_cruzado_-_copia_osf3pp.jpg"
     },
     {
         "name": "007",
@@ -15,7 +15,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158698/007_Desde_rusia_con_amor_cdiyvs.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158697/007_Desde_rusia_con_amor_-_copia_bqkccz.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724200333/007_Desde_rusia_con_amor_-_copia_pfa5rf.jpg"
     },
     {
         "name": "007",
@@ -24,7 +24,7 @@ export const games = [
         "region": "pal",
         "size": 3.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158702/007_nightffire_j7rfve.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158697/007_nightffire_-_copia_ply3c2.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724200334/007_nightffire_-_copia_hxtmw0.jpg"
     },
     {
         "name": "007",
@@ -33,7 +33,7 @@ export const games = [
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158699/007_Quantum_of_Solace_cgfgmx.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158698/007_Quantum_of_Solace_-_copia_orwlcp.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724200335/007_Quantum_of_Solace_-_copia_x8pefd.jpg"
     },
     {
         "name": "007",
@@ -42,7 +42,7 @@ export const games = [
         "region": "pal",
         "size": 3.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158701/007_a_todo_o_nada_osrb58.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723159507/007_a_todo_o_nada_-_copia_rlat2z.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724200332/007_a_todo_o_nada_-_copia_g85xex.jpg"
     },
     {
         "name": "25 to life",
@@ -51,8 +51,14 @@ export const games = [
         "region": "ntsc",
         "size": 1.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158702/25-to-life_a6r5e5.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723158699/25-to-life_-_copia_mlejhi.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724200336/25-to-life_-_copia_l6wukq.jpg"
     },
+    
+
+
+
+
+
 
 
 
@@ -67,7 +73,7 @@ export const games = [
         "region": "ntsc",
         "size": 3.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075930/Ace_combat_4_-_Shattered_skies_e2nlfh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160846/Ace_combat_4_-_Shattered_skies_-_copia_nxwusl.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201765/Ace_combat_4_-_Shattered_skies_-_copia_sppeat.jpg"
     },
     {
         "name": "ace combat 5",
@@ -76,7 +82,7 @@ export const games = [
         "region": "pal",
         "size": 3.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075934/Ace_Combat_5_-_The_Unsung_War_gnbi2z.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160846/Ace_Combat_5_-_The_Unsung_War_-_copia_pyyhdw.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201767/Ace_Combat_5_-_The_Unsung_War_-_copia_trfeqw.jpg"
     },
     {
         "name": "ace combat zero",
@@ -85,7 +91,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723078566/Ace_Combat_Zero_-_The_Belkan_War_hbivtq.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160846/Ace_Combat_Zero_-_The_Belkan_War_-_copia_jorgla.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201769/Ace_Combat_Zero_-_The_Belkan_War_-_copia_zgzllq.jpg"
     },
     {
         "name": "aliens vs predator",
@@ -94,7 +100,7 @@ export const games = [
         "region": "ntsc",
         "size": 0.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076949/Alien_vs_predator_-_extinction_mrp8br.webp",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160846/Alien_vs_predator_-_extinction_-_copia_txu8x4.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201768/Alien_vs_predator_-_extinction_-_copia_cy8ljc.jpg"
     },
     {
         "name": "alone in the dark",
@@ -103,7 +109,7 @@ export const games = [
         "region": "pal",
         "size": 3.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075928/Alone_in_the_dark_ioq8tw.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160846/Alone_in_the_dark_-_copia_ez4pig.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201770/Alone_in_the_dark_-_copia_gunqo5.jpg"
     },
     {
         "name": "armored core 2",
@@ -112,7 +118,7 @@ export const games = [
         "region": "ntsc",
         "size": 3.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075929/Armored_Core_2_mlwqkx.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160847/Armored_Core_2_-_copia_jpqbrs.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201774/Armored_Core_2_-_copia_zdj8ti.jpg"
     },
     {
         "name": "armored core 2",
@@ -121,7 +127,7 @@ export const games = [
         "region": "ntsc",
         "size": 3.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075935/Armored_Core_2_-_Another_Age_tfajjj.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160846/Armored_Core_2_-_Another_Age_-_copia_hqz29b.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201773/Armored_Core_2_-_Another_Age_-_copia_s1o9y5.jpg"
     },
     {
         "name": "armored core 3",
@@ -130,7 +136,7 @@ export const games = [
         "region": "ntsc",
         "size": 1.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075929/Armored_Core_3_srovus.webp",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160849/Armored_Core_3_-_copia_rac0qf.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201780/Armored_Core_3_-_copia_cgc39b.jpg"
     },
     {
         "name": "armored core",
@@ -139,7 +145,7 @@ export const games = [
         "region": "ntsc",
         "size": 2.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723078704/Armored_Core_2_-_Last_raven_rih8hc.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160847/Armored_Core_2_-_Last_raven_-_copia_s919mx.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201775/Armored_Core_2_-_Last_raven_-_copia_xwwnl1.jpg"
     },
     {
         "name": "armored core",
@@ -148,7 +154,7 @@ export const games = [
         "region": "ntsc",
         "size": 3.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075934/Armored_Core_2_-_Nexus_eaaxuq.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160847/Armored_Core_2_-_Nexus_-_copia_utcv0u.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201777/Armored_Core_2_-_Nexus_-_copia_r2qusw.jpg"
     },
     {
         "name": "armored core",
@@ -157,7 +163,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075934/Armored_Core_2_-_Nexus_eaaxuq.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160847/Armored_Core_2_-_Nexus_-_copia_utcv0u.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201777/Armored_Core_2_-_Nexus_-_copia_r2qusw.jpg"
     },
     {
         "name": "armored core",
@@ -166,7 +172,7 @@ export const games = [
         "region": "ntsc",
         "size": 2.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075929/Armored_Core_2_-_Nine_breaker_z04bvp.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160849/Armored_Core_2_-_Nine_breaker_-_copia_w77qin.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201778/Armored_Core_2_-_Nine_breaker_-_copia_xse6b5.jpg"
     },
     {
         "name": "armored core",
@@ -175,7 +181,7 @@ export const games = [
         "region": "ntsc",
         "size": 1.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723075929/Armored_core_-_Silent_Line_gdhblt.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160847/Armored_core_-_Silent_Line_-_copia_tsrss4.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201771/Armored_core_-_Silent_Line_-_copia_y3zdcg.jpg"
     },
     {
         "name": "army men",
@@ -184,7 +190,7 @@ export const games = [
         "region": "ntsc",
         "size": 0.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076957/Army_Men_-_Air_Attack_2_du7a2a.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160850/Army_Men_-_Air_Attack_2_-_copia_atlcqs.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201785/Army_Men_-_Air_Attack_2_-_copia_i03u0f.jpg"
     },
     {
         "name": "army men",
@@ -193,7 +199,7 @@ export const games = [
         "region": "pal",
         "size": 1.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076949/Army_men_-_Green_Rogue_gc6dpw.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160849/Army_men_-_Green_Rogue_-_copia_yagw6t.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201781/Army_men_-_Green_Rogue_-_copia_btdigb.jpg"
     },
     {
         "name": "army men",
@@ -202,7 +208,7 @@ export const games = [
         "region": "pal",
         "size": 1.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076951/Army_men_-_major_malfunction_lxp9vg.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160850/Army_men_-_major_malfunction_-_copia_zmokhj.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201782/Army_men_-_major_malfunction_-_copia_vlvmh1.jpg"
     },
     {
         "name": "army men",
@@ -211,7 +217,7 @@ export const games = [
         "region": "pal",
         "size": 2.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076950/Army_men_-_RTS_wtk8fx.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160850/Army_men_-_RTS_-_copia_mreqn6.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201788/Army_men_-_RTS_-_copia_rfnmgv.jpg"
     },
     {
         "name": "army men",
@@ -220,7 +226,7 @@ export const games = [
         "region": "pal",
         "size": 3.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076950/Army_men_-_Sarge_s_war_xwyo1b.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160850/Army_men_-_Sarge_s_war_-_copia_qbbmiz.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201784/Army_men_-_Sarge_s_war_-_copia_yl1nuw.jpg"
     },
     {
         "name": "avatar",
@@ -229,7 +235,7 @@ export const games = [
         "region": "ntsc",
         "size": 2.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076950/Avatar_-_into_de_inferno_a8qzkd.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160852/Avatar_-_into_de_inferno_-_copia_oxcmzp.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201786/Avatar_-_into_de_inferno_-_copia_olxlcn.jpg"
     },
     {
         "name": "avatar",
@@ -238,7 +244,7 @@ export const games = [
         "region": "ntsc",
         "size": 1.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076951/Avatar_-_The_burning_earth_jxqhwq.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160852/Avatar_-_The_burning_earth_-_copia_zag5ij.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201790/Avatar_-_The_burning_earth_-_copia_l0a5ef.jpg"
     },
     {
         "name": "avatar",
@@ -247,7 +253,7 @@ export const games = [
         "region": "ntsc",
         "size": 1.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076954/Avatar_-_the_last_airbender_nykjyb.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160852/Avatar_-_the_last_airbender_-_copia_w0wv4g.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201791/Avatar_-_the_last_airbender_-_copia_dssa30.jpg"
     },
     {
         "name": "avatar",
@@ -256,8 +262,16 @@ export const games = [
         "region": "ntsc",
         "size": 1.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723076952/Avatar_-_the_legend_of_aang_zvmx0h.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723160853/Avatar_-_the_legend_of_aang_-_copia_miaeqv.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724201792/Avatar_-_the_legend_of_aang_-_copia_oxpwix.jpg"
     },
+    
+
+
+
+
+
+
+    
 
 
 
@@ -737,7 +751,7 @@ export const games = [
         "language": "español",
         "region": "ntsc",
         "size": 5.3,
-        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/dbz_budokai_tenkaichi_4_tava58.jpg",
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723679141/dbz_budokai_tenkaichi_4_r85wpo.jpg",
         "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/dbz_budokai_tenkaichi_4_-_copia_rgebd6.jpg"
     },
     {
@@ -865,7 +879,518 @@ export const games = [
         "size": 0.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Dora_The_Explorer_-_Journey_To_The_Purple_Planet_stfvyu.jpg",
         "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dora_The_Explorer_-_Journey_To_The_Purple_Planet_-_copia_acfyyv.jpg"
-    }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "fifa",
+        "sub_name": "Mundial 2002",
+        "language": "español",
+        "region": "pal",
+        "size": 2.5,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680527/Mundial_FIFA_2002_scbp2t.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680541/Mundial_FIFA_2002_-_copia_mkumly.jpg"
+    },
+    {
+        "name": "fifa",
+        "sub_name": "Mundial Alemania 2006",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680517/Fifa_Copa_Del_Mundo_Alemania_2006_douexz.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680523/Fifa_Copa_Del_Mundo_Alemania_2006_-_copia_tml79k.jpg"
+    },
+    {
+        "name": "fifa 06",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680528/Fifa_06_xfb8cn.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680519/Fifa_06_-_copia_pesmdc.jpg"
+    },
+    {
+        "name": "fifa 07",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Fifa_07_s7sv97.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680519/Fifa_07_-_copia_l8cv7v.jpg"
+    },
+    {
+        "name": "fifa 08",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Fifa_08_ixhudh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680520/Fifa_08_-_copia_b8zlla.jpg"
+    },
+    {
+        "name": "fifa 09",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680531/Fifa_09_jxrdvp.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680520/Fifa_09_-_copia_n2wo21.jpg"
+    },
+    {
+        "name": "fifa 10",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680533/Fifa_10_vxatfp.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680520/Fifa_10_-_copia_jzzesn.jpg"
+    },
+    {
+        "name": "fifa 11",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680515/Fifa_11_flt7cz.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680521/Fifa_11_-_copia_b8k4go.jpg"
+    },
+    {
+        "name": "fifa 12",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680516/fifa_12_kywzqi.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680521/fifa_12_-_copia_l4pkce.jpg"
+    },
+    {
+        "name": "fifa 13",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680515/fifa_13_phml0l.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680521/fifa_13_-_copia_qo8a8e.jpg"
+    },
+    {
+        "name": "fifa 14",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680529/fifa_14_ofsdlv.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680522/fifa_14_-_copia_wq7enw.jpg"
+    },
+    {
+        "name": "fifa 2002",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680515/FIFA_Football_2002_kmf7ur.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680519/FIFA_Football_2002_-_copia_dabyf4.jpg"
+    },
+    {
+        "name": "fifa 2003",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680525/Fifa_Football_2003_sowl8q.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680523/Fifa_Football_2003_-_copia_kwu93w.jpg"
+    },
+    {
+        "name": "fifa 2004",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 2.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680525/Fifa_Football_2004_fo1kej.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680524/Fifa_Football_2004_-_copia_etvgol.jpg"
+    },
+    {
+        "name": "fifa 2005",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680532/Fifa_Football_2005_tigucc.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680524/Fifa_Football_2005_-_copia_vwacmj.jpg"
+    },
+    {
+        "name": "fifa 21",
+        "sub_name": "",
+        "language": "español",
+        "region": "ntsc",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680516/Fifa_21_wa7773.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680522/Fifa_21_-_copia_fzdjhe.jpg"
+    },
+    {
+        "name": "fifa street",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680528/Fifa_Street_qwftj7.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680533/Fifa_Street_-_copia_hai9ei.jpg"
+    },
+    {
+        "name": "fifa street 2",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Fifa_Street_2_t3c951.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680534/Fifa_Street_2_-_copia_wt5ko2.jpg"
+    },
+    {
+        "name": "fight night",
+        "sub_name": "round 2",
+        "language": "inglés",
+        "region": "pal",
+        "size": 3.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680532/Fight_Night_Round_2_lboh8c.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680534/Fight_Night_Round_2_-_copia_ig59kl.jpg"
+    },
+    {
+        "name": "fight night",
+        "sub_name": "round 3",
+        "language": "inglés",
+        "region": "pal",
+        "size": 3.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Fight_Night_Round_3_ywcdnb.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680535/Fight_Night_Round_3_-_copia_szuy2b.jpg"
+    },
+    {
+        "name": "fight night 2004",
+        "sub_name": "",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 3.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680524/Fight_Night_2004_bavgxs.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680534/Fight_Night_2004_-_copia_lbxpeq.jpg"
+    },
+    {
+        "name": "final fantasy x2",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680523/Final_Fantasy_X-2_qteeqh.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680535/Final_Fantasy_X-2_-_copia_j6x5jb.jpg"
+    },
+    {
+        "name": "final fantasy xi",
+        "sub_name": "",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 2.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680517/Final_Fantasy_Xi_moj5c3.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680536/Final_Fantasy_Xi_-_copia_lnr4sn.jpg"
+    },
+    {
+        "name": "final fantasy vii",
+        "sub_name": "dirge of cerberus",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 3.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Dirge_Of_Cerberus_-_Final_Fantasy_Vii_rdbzjc.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Dirge_Of_Cerberus_-_Final_Fantasy_Vii_-_copia_e6znzc.jpg"
+    },
+    {
+        "name": "final fantasy x",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Final_Fantasy_X_ipq63v.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680535/Final_Fantasy_X_-_copia_sqwa9d.jpg"
+    },
+    {
+        "name": "ford",
+        "sub_name": "street racing",
+        "language": "español",
+        "region": "pal",
+        "size": 0.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680528/Ford_Street_Racing_igskzc.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Ford_Street_Racing_-_copia_qbelsx.jpg"
+    },
+    {
+        "name": "ford mustang",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 1.5,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680532/Ford_Mustang_flvqab.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680536/Ford_Mustang_-_copia_otg5gr.jpg"
+    },
+    {
+        "name": "ford racing",
+        "sub_name": "off road",
+        "language": "español",
+        "region": "pal",
+        "size": 0.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680526/Ford_Off_Road_soxtkr.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680537/Ford_Off_Road_-_copia_gk34wj.jpg"
+    },
+    {
+        "name": "ford racing 2",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 0.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680529/Ford_Racing_2_ecgg96.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680536/Ford_Racing_2_-_copia_xw107z.jpg"
+    },
+    {
+        "name": "ford racing 3",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 0.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680526/Ford_Racing_3_r1tlev.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Ford_Racing_3_-_copia_x1hz6s.jpg"
+    },
+    {
+        "name": "ford vs chevy",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 2.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680526/Ford_Vs_Chevy_t0moey.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Ford_Vs_Chevy_-_copia_fpi2pu.jpg"
+    },
+    {
+        "name": "formula 1 01",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 0.5,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680525/Formula_One_2001_staipl.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680539/Formula_One_2001_-_copia_tmiiyd.jpg"
+    },
+    {
+        "name": "formula 1 03",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Formula_One_2003_w7i0xy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680540/Formula_One_2003_-_copia_khn27k.jpg"
+    },
+    {
+        "name": "formula 1 04",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 1.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680531/Formula_One_2004_qjmqrl.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680540/Formula_One_2004_-_copia_yiw9fx.jpg"
+    },
+    {
+        "name": "formula 1 05",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680533/Formula_One_2005_berl72.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680540/Formula_One_2005_-_copia_lasjvz.jpg"
+    },
+    {
+        "name": "formula 1 06",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Formula_One_06_ggr09s.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680539/Formula_One_06_-_copia_z0iebw.jpg"
+    },
+    
     
 
+    
+
+
+
+
+
+
+
+    
+
+    {
+        "name": "god hand",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 1.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197840/God_Hand_fcmptn.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199501/God_Hand_-_copia_cssi9s.jpg"
+    },
+    {
+        "name": "god of war",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197841/God_Of_War_lzesos.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199501/God_Of_War_-_copia_ewu4p8.jpg"
+    },
+    {
+        "name": "god of war 2",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197840/God_Of_War_2_dzynwl.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199502/God_Of_War_2_-_copia_cvhuhj.jpg"
+    },
+    {
+        "name": "gran turismo 3",
+        "sub_name": "a spec",
+        "language": "español",
+        "region": "pal",
+        "size": 3.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197841/Gran_Turismo_3_A_Spec_o7n6jd.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199503/Gran_Turismo_3_A_Spec_-_copia_ci3rew.jpg"
+    },
+    {
+        "name": "gran turismo 4",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 5.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197842/Gran_Turismo_4_kwkocn.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199502/Gran_Turismo_4_-_copia_zjwun3.jpg"
+    },
+    {
+        "name": "gran turismo 4",
+        "sub_name": "prologue",
+        "language": "español",
+        "region": "pal",
+        "size": 3.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197841/Gran_Turismo_4_-_Prologue_ni2ufz.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199504/Gran_Turismo_4_-_Prologue_-_copia_woqv9y.jpg"
+    },
+    {
+        "name": "gta",
+        "sub_name": "liberty city stories",
+        "language": "español",
+        "region": "pal",
+        "size": 3.7,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197840/Grand_Theft_Auto_-_Liberty_City_Stories_phlxww.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199505/Grand_Theft_Auto_-_Liberty_City_Stories_-_copia_orch6m.jpg"
+    },
+    {
+        "name": "gta",
+        "sub_name": "san andreas",
+        "language": "español",
+        "region": "pal",
+        "size": 4.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197840/Grand_Theft_Auto_San_Andreas_tfbzgq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199507/Grand_Theft_Auto_San_Andreas_-_copia_fsw0hh.jpg"
+    },
+    {
+        "name": "gta",
+        "sub_name": "vice city",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197844/_Grand_Theft_Auto_Vice_City_nrddyl.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199500/_Grand_Theft_Auto_Vice_City_-_copia_cdmpex.jpg"
+    },
+    {
+        "name": "gta",
+        "sub_name": "vice city stories",
+        "language": "español",
+        "region": "pal",
+        "size": 3.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197840/Grand_Theft_Auto_-_Vice_City_Stories_zcdbut.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199505/Grand_Theft_Auto_-_Vice_City_Stories_-_copia_vmwq6p.jpg"
+    },
+    {
+        "name": "gta 3",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197840/Grand_Theft_Auto_3__parpgu.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199506/Grand_Theft_Auto_3__-_copia_qwnqyq.jpg"
+    },
+    {
+        "name": "guitar hero",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 2.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197842/Guitar_Hero_exaclp.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199508/Guitar_Hero_-_copia_hhx5gf.jpg"
+    },
+    {
+        "name": "guitar hero",
+        "sub_name": "aerosmith",
+        "language": "español",
+        "region": "pal",
+        "size": 4.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197843/Guitar_Hero_-_Aerosmith_isss54.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199509/Guitar_Hero_-_Aerosmith_-_copia_w3oj67.jpg"
+    },
+    {
+        "name": "guitar hero",
+        "sub_name": "rock de los 80",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 1.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197842/Guitar_Hero_-_Encore_Rocks_The_80s_hm1jz6.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199510/Guitar_Hero_-_Encore_Rocks_The_80s_-_copia_wtzjr1.jpg"
+    },
+    {
+        "name": "guitar hero 2",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197843/Guitar_Hero_2_bdmlk0.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199511/Guitar_Hero_2_-_copia_b7xydb.jpg"
+    },
+    {
+        "name": "guitar hero 2",
+        "sub_name": "anubis",
+        "language": "inglés",
+        "region": "ntsc",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197843/Guitar_Hero_3_-_Anubis_s0uerm.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199512/Guitar_Hero_3_-_Anubis_-_copia_zypyiv.jpg"
+    },
+    {
+        "name": "guitar hero 3",
+        "sub_name": "leyendas del rock",
+        "language": "español",
+        "region": "pal",
+        "size": 4.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197843/Guitar_Hero_3_-_Legends_Of_Rock_caru47.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199513/Guitar_Hero_3_-_Legends_Of_Rock_-_copia_so72a3.jpg"
+    },
+    {
+        "name": "gun",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 2.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197844/Gun_cnpwy9.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199514/Gun_-_copia_v3ltez.jpg"
+    }
+    
+    
 ]
