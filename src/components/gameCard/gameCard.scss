@@ -34,10 +34,23 @@
 
 
 
+
     .game-card-image {
         height: 100%;
         width: 100%;
         cursor: pointer;
+        filter: brightness(80%);
+        transition: filter 0.2s ease;
+
+        @media only screen and (max-width: 979px) {
+            filter: brightness(100%);
+        }
+    }
+
+
+
+    &:hover .game-card-image {
+        filter: brightness(100%);
     }
 
 
@@ -60,7 +73,7 @@
         .name {
             text-align: left;
             font-weight: 700;
-            margin-top: 10px;
+            margin-top: -5px;
             margin-inline: 10px;
             transform: translateY(-15px);
         }
@@ -91,7 +104,7 @@
             position: absolute;
             border: 1px solid variables.$color7;
             top: -32px;
-            left: 2px;
+            right: 2px;
             border-radius: 50%;
             width: 30px;
             height: 30px;
@@ -115,7 +128,7 @@
 
         
         &.open {
-            height: 130px;
+            height: 100px;
             border-top: 1px solid variables.$color7;
     
             .name, .sub-name {
@@ -131,7 +144,7 @@
             }
     
             .name {
-                margin-top: 25px;
+                margin-top: 15px;
             }
 
             .language-and-size {

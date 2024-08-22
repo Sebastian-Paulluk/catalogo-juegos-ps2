@@ -475,8 +475,6 @@ export const games = [
 
 
 
-
-
     {
         "name": "caballeros del zodiaco",
         "sub_name": "the hades",
@@ -484,7 +482,7 @@ export const games = [
         "region": "pal",
         "size": 3.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Caballeros_del_zodiaco_-_hader_cry8w2.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Caballeros_del_zodiaco_-_hader_-_copia_wtzzdl.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285676/Caballeros_del_zodiaco_-_hader_-_copia_tseeuq.jpg"
     },
     {
         "name": "caballeros del zodiaco",
@@ -493,7 +491,7 @@ export const games = [
         "region": "pal",
         "size": 1.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Caballeros_del_zodiaco_-_santuario_ve5bph.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Caballeros_del_zodiaco_-_santuario_-_copia_wzejxn.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285677/Caballeros_del_zodiaco_-_santuario_-_copia_myu2nk.jpg"
     },
     {
         "name": "cabela’s",
@@ -502,7 +500,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cabelas_Legendary_Adventures_fmb0xu.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Cabelas_Legendary_Adventures_-_copia_rj7c9c.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285678/Cabelas_Legendary_Adventures_-_copia_i2t2cc.jpg"
     },
     {
         "name": "cabela’s",
@@ -511,7 +509,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cabelas_North_AmericanAdventures_mlrjju.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cabelas_North_AmericanAdventures_-_copia_fanaci.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285679/Cabelas_North_AmericanAdventures_-_copia_ekri8s.jpg"
     },
     {
         "name": "cabela’s",
@@ -520,7 +518,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Cabelas_North_monster_bass_zqjkfj.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cabelas_North_monster_bass_-_copia_jmadt2.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285681/Cabelas_North_monster_bass_-_copia_sbdl9j.jpg"
     },
     {
         "name": "cabela’s",
@@ -529,7 +527,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Cabelas_Trophy_Bucks_fnskfb.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cabelas_Trophy_Bucks_-_copia_upd9jr.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285682/Cabelas_Trophy_Bucks_-_copia_oirgfx.jpg"
     },
     {
         "name": "call of duty",
@@ -538,7 +536,7 @@ export const games = [
         "region": "pal",
         "size": 3.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Call_Of_Duty_-_World_At_War_sva2cu.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Call_Of_Duty_-_World_At_War_-_copia_rxbczo.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285683/Call_Of_Duty_-_World_At_War_-_copia_gtwmpy.jpg"
     },
     {
         "name": "call of duty 3",
@@ -547,7 +545,7 @@ export const games = [
         "region": "pal",
         "size": 4.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Call_Of_Duty_3_uyf990.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Call_Of_Duty_3_-_copia_mdze7o.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285685/Call_Of_Duty_3_-_copia_ipoep0.jpg"
     },
     {
         "name": "cars",
@@ -556,7 +554,7 @@ export const games = [
         "region": "pal",
         "size": 2.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Cars_dstwrl.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cars_-_copia_y9fwv1.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285686/Cars_-_copia_e2xvvi.jpg"
     },
     {
         "name": "cars",
@@ -565,7 +563,7 @@ export const games = [
         "region": "pal",
         "size": 2.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cars_-_La_Copa_Internacional_De_Mate_lodeyb.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cars_-_La_Copa_Internacional_De_Mate_-_copia_clvipy.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285687/Cars_-_La_Copa_Internacional_De_Mate_-_copia_x4m8wn.jpg"
     },
     {
         "name": "cars",
@@ -574,7 +572,7 @@ export const games = [
         "region": "pal",
         "size": 3.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224576/Cars_-_Race_O_Rama_jqwvn5.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Cars_-_Race_O_Rama_-_copia_yesfsk.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285690/Cars_-_Race_O_Rama_-_copia_aqmgis.jpg"
     },
     {
         "name": "champions",
@@ -583,7 +581,7 @@ export const games = [
         "region": "pal",
         "size": 4.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224577/Champions_-_Return_To_Arms__jaqmfc.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Champions_-_Return_To_Arms__-_copia_usqh0t.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285689/Champions_-_Return_To_Arms__-_copia_uiu6tg.jpg"
     },
     {
         "name": "champions of norrath",
@@ -592,7 +590,7 @@ export const games = [
         "region": "pal",
         "size": 7.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Champions_Of_Norrath_w0yifi.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224581/Champions_Of_Norrath_-_copia_rljafk.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285860/Champions_Of_Norrath_-_copia_zcg9zj.jpg"
     },
     {
         "name": "chicken little",
@@ -601,7 +599,7 @@ export const games = [
         "region": "pal",
         "size": 1.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224578/Chicken_Little_mpilhx.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Chicken_Little_-_copia_nwn0h3.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285693/Chicken_Little_-_copia_lljupd.jpg"
     },
     {
         "name": "colosseum",
@@ -610,7 +608,7 @@ export const games = [
         "region": "ntsc",
         "size": 2.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224579/Colosseum_-_Road_To_Freedom_pwrrnh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Colosseum_-_Road_To_Freedom_-_copia_rxxs7d.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285694/Colosseum_-_Road_To_Freedom_-_copia_texbn2.jpg"
     },
     {
         "name": "crash",
@@ -619,7 +617,7 @@ export const games = [
         "region": "pal",
         "size": 0.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Crash_la_venganza_de_cortex_j41emp.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Crash_la_venganza_de_cortex_-_copia_dnngli.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285697/Crash_la_venganza_de_cortex_-_copia_rondru.jpg"
     },
     {
         "name": "crash",
@@ -628,7 +626,7 @@ export const games = [
         "region": "pal",
         "size": 3.0,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Crash_Mind_Over_Mutant_t7yc81.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Crash_Mind_Over_Mutant_-_copia_kvhauc.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285696/Crash_Mind_Over_Mutant_-_copia_pthcwm.jpg"
     },
     {
         "name": "crash",
@@ -637,8 +635,17 @@ export const games = [
         "region": "pal",
         "size": 2.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224580/Crash_Of_The_Titans_texuh7.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723224582/Crash_Of_The_Titans_-_copia_ybfrs2.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724285675/Crash_Of_The_Titans_-_copia_glzfoh.jpg"
     },
+    
+    
+
+
+
+
+
+
+
 
 
 
@@ -1394,7 +1401,205 @@ export const games = [
         "size": 2.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724197844/Gun_cnpwy9.jpg",
         "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724199514/Gun_-_copia_v3ltez.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    {
+        "name": "hello kitty",
+        "sub_name": "roller rescue",
+        "language": "español",
+        "region": "pal",
+        "size": 1.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281323/Hello_Kitty_jzsnux.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281323/Hello_Kitty_-_copia_dys8zu.jpg"
+    },
+    {
+        "name": "hombres de negro 2",
+        "sub_name": "alien escape",
+        "language": "español",
+        "region": "pal",
+        "size": 0.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281324/Hombres_de_negro__2_kcblmp.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281323/Hombres_de_negro__2_-_copia_n3bghp.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    {
+        "name": "ico",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 0.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281328/Ico_eeq8cx.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281326/Ico_dbgz4s.jpg"
+    },
+    {
+        "name": "increibles",
+        "sub_name": "",
+        "language": "inglés",
+        "region": "pal",
+        "size": 1.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281327/Los_Increibles_f4bbdy.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281327/Los_Increibles_-_copia_iotjc2.jpg"
+    },
+    {
+        "name": "increíbles",
+        "sub_name": "la amenaza del socavador",
+        "language": "español",
+        "region": "pal",
+        "size": 1.5,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281329/Los_Incribles_-_La_Amenaza_Del_Socavador_zwcset.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281327/Los_Incribles_-_La_Amenaza_Del_Socavador_-_copia_qwgdp6.jpg"
+    },
+    {
+        "name": "indiana jones",
+        "sub_name": "y el cetro de los reyes",
+        "language": "español",
+        "region": "pal",
+        "size": 2.5,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281327/Indiana_Jones_And_The_Staff_Of_Kings_eyaujp.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281491/Indiana_Jones_And_The_Staff_Of_Kings_ed7ttd.jpg"
+    },
+    {
+        "name": "indiana jones",
+        "sub_name": "y la tumba del emperador",
+        "language": "español",
+        "region": "pal",
+        "size": 3.8,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281329/Indiana_Jones_-_y_la_tumba_del_emperador_ojvdkt.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281326/Indiana_Jones_-_y_la_tumba_del_emperador_-_copia_eiwx5v.jpg"
+    },
+    {
+        "name": "international superstar soccer 3",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 1.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281328/International_Superstar_Soccer_3_qnpncv.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281327/International_Superstar_Soccer_3_-_copia_prn2ct.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "jak 3",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.2,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281331/Jak_3_gozuyj.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281331/Jak_3_-_copia_rw7zfp.jpg"
+    },
+    {
+        "name": "jak and daxter",
+        "sub_name": "la frontera perdida",
+        "language": "español",
+        "region": "pal",
+        "size": 3.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281331/Jak_And_Daxter_-_The_Lost_Frontier_w9nijq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281332/Jak_And_Daxter_-_The_Lost_Frontier_-_copia_oqfprv.jpg"
+    },
+    {
+        "name": "jak and daxter",
+        "sub_name": "el legado de los precursores",
+        "language": "español",
+        "region": "pal",
+        "size": 1.4,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281331/Jak_And_Daxter_El_Legado_de_los_Precursores_kcnhum.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281332/Jak_And_Daxter_El_Legado_de_los_Precursores_-_copia_vzezey.jpg"
+    },
+    {
+        "name": "jak 2",
+        "sub_name": "El renegado",
+        "language": "español",
+        "region": "pal",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281333/Jak_Ii_-_El_Renegado_tzucbk.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281332/Jak_Ii_-_El_Renegado_-_copia_vpu8ih.jpg"
+    },
+    {
+        "name": "jak x",
+        "sub_name": "combat racing",
+        "language": "español",
+        "region": "pal",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281331/Jax_X_Combat_Racing_kpazxc.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281332/Jax_X_Combat_Racing_-_copia_yxt7c9.jpg"
+    },
+    {
+        "name": "jorge el cursioso",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281331/Jorge_el_curioso_eknxu9.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281332/Jorge_el_curioso_-_copia_ikgoci.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "kung fu panda",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 3.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281957/Kung_Fu_Panda_mxzkkz.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281956/Kung_Fu_Panda_-_copy_gvtzrn.jpg"
     }
+
     
-    
+
 ]
