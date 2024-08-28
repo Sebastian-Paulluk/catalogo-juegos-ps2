@@ -1,0 +1,28 @@
+@use '../../../scss/variables';
+
+.loading-card {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    transition: height 0.2s ease;
+
+    .spin{
+        color: variables.$color8;
+    }
+
+
+    @media only screen and (max-width: 979px) {
+        height: 212px;
+    }
+
+    @media only screen and (max-width:767px) {
+        height: 192px;
+    }
+
+    @media only screen and (max-width: 480px) {
+        height: 150px;
+    }
+}
+

@@ -7,6 +7,7 @@ import { Modal } from '../modal/modal';
 import radioUnchecked from './../../assets/radio-unchecked.png';
 import radioChecked from './../../assets/radio-checked.png';
 import arrowUp from './../../assets/double-arrow-up.png';
+import { LoadingCard } from './LoadingCard/loadingCard';
 
 export default function GameCard({game, mountingDelay}) {
     const {toggleGameOnSavedList, gameInSavedList, savedGames} = useContext(savedGamesContext);
@@ -71,7 +72,7 @@ export default function GameCard({game, mountingDelay}) {
                     onClick={handleOpenModal}
                     style={{ display: isImageLoaded ? 'block' : 'none' }}
                 />
-                {!isImageLoaded && <p>Cargando ...</p>}
+                {!isImageLoaded && <LoadingCard/>}
                 {isImageLoaded && (
                     <>
                         <div className={`info-container ${openGameInfoPanel ? 'open' : ''}`}>
