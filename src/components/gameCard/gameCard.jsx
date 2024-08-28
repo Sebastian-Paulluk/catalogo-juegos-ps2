@@ -13,7 +13,8 @@ export default function GameCard({game, mountingDelay}) {
     const [savedState, setSavedState] = useState(gameInSavedList(game));
     const [openModal, setOpenModal] = useState(false);
     const [openGameInfoPanel, setOpenGameInfoPanel] = useState(false);
-    const cardRef = useRef(null); // Ref para la GameCard
+    const [isImageLoaded, setIsImageLoaded] = useState(false);
+    const cardRef = useRef(null); 
 
     const visibility = useMountingAnimation(mountingDelay);
     const name = game.name && capitalizeWords(game.name);
@@ -53,25 +54,42 @@ export default function GameCard({game, mountingDelay}) {
         setOpenGameInfoPanel(!openGameInfoPanel);
     };
 
+
+    const handleImageLoad = () => {
+        setIsImageLoaded(true);
+        console.log("Hola")
+    };
+
     return (
         <>
             <div ref={cardRef} className={`game-card ${visibility ? '' : 'hidden'} ${gameInSavedList(game) ? 'saved' : ''}`}>
-                <img className='game-card-image' src={game.thumbnail} alt={`${game.name} ${game.sub_name}`} onClick={handleOpenModal}></img>
-                <div className={`info-container ${openGameInfoPanel ? 'open' : ''}`}>
-                    <span className='name'>{name}</span>
-                    { game.sub_name === '' ? (
-                            <></>
-                        ) : (
-                            <span className='sub-name'>{capitalizeWords(game.sub_name)}</span>
-                        )
-                    }
-                    <span className='language-and-size'>{language} / {game.size} GB</span>
-                    <button className='open-info-container-button' onClick={handleToggleGameInfoPanel}>
-                        <img className='open-info-panel-button-img' src={arrowUp} alt='arrow-up'></img>
-                    </button>
-                </div>
-                <img className={`save-game-button ${savedState ? '' : 'hidden'}`} src={radioChecked} onClick={()=>handleSaveGameClick(game)} alt='save-game-button'></img>
-                <img className={`drop-game-button ${savedState ? 'hidden' : ''}`} src={radioUnchecked} onClick={()=>handleSaveGameClick(game)} alt='drop-game-button'></img>
+                <img
+                    className='game-card-image'
+                    src={game.thumbnail}
+                    alt={`${game.name} ${game.sub_name}`}
+                    onLoad={handleImageLoad}
+                    onClick={handleOpenModal}
+                    style={{ display: isImageLoaded ? 'block' : 'none' }}
+                />
+                {!isImageLoaded && <p>Cargando ...</p>}
+                {isImageLoaded && (
+                    <>
+                        <div className={`info-container ${openGameInfoPanel ? 'open' : ''}`}>
+                            <span className='name'>{name}</span>
+                            {game.sub_name === '' ? (
+                                <></>
+                            ) : (
+                                <span className='sub-name'>{capitalizeWords(game.sub_name)}</span>
+                            )}
+                            <span className='language-and-size'>{language} / {game.size} GB</span>
+                            <button className='open-info-container-button' onClick={handleToggleGameInfoPanel}>
+                                <img className='open-info-panel-button-img' src={arrowUp} alt='arrow-up' />
+                            </button>
+                        </div>
+                        <img className={`save-game-button ${savedState ? '' : 'hidden'}`} src={radioChecked} onClick={() => handleSaveGameClick(game)} alt='save-game-button' />
+                        <img className={`drop-game-button ${savedState ? 'hidden' : ''}`} src={radioUnchecked} onClick={() => handleSaveGameClick(game)} alt='drop-game-button' />
+                    </>
+                )}
             </div>
             <Modal onClose={handleCloseModal} open={openModal} game={game} />
         </>
