@@ -22,14 +22,15 @@ export const SearchBar =({open, hideSearchBar})=>{
     }
 
     const unlockScroll = () => {
-        document.body.style.overflow = 'auto'
-        document.body.style.paddingRight = '0px'
+        setTimeout(()=>{
+            document.body.style.overflow = 'auto'
+            document.body.style.paddingRight = '0px'
+        }, 150)
     }
 
 
     useEffect(() => {
         open ? lockScroll() : unlockScroll()
-        return () => unlockScroll()
     }, [open]);
 
 
