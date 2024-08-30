@@ -26,7 +26,8 @@
     .search-bar {
         height: 100px;
         width: 100%;
-        background-color: variables.$color4;
+        background: rgba(0, 0, 0, 0.1); 
+        backdrop-filter: blur(10px);
         display: flex;
         justify-content: center;
         align-items: center;
