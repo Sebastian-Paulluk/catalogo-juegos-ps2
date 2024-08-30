@@ -11,6 +11,7 @@ export const Header =()=>{
 
     return (
         <div className='header'>
+            <div className='header__backgorund-effect'/>
             <div className='header__content'>
                 <Link to='/'>
                     <div className='logo-container'>
@@ -25,6 +26,7 @@ export const Header =()=>{
                 <ShowSearchBarButton />
                 <SavedGamesWidget />
             </div>
+            
         </div>
     )
 }
