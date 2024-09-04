@@ -13,11 +13,6 @@
     min-height: calc(100vh - variables.$header-height);
     width: 100%;
 
-    .search-title {
-        position: sticky;
-        top: variables.$header-height;
-        z-index: 995;
-    }
 
     .search-content{
         max-width: variables.$main-container-max-width;

@@ -1,7 +1,6 @@
 @use '../../scss/variables';
 
 .nav {
-
     margin-left: auto;
     width: variables.$nav-width;
     height: calc(100vh - variables.$header-height);
@@ -24,5 +23,59 @@
     &.hidden {
         width: 0px;
         opacity: 0;
+    }
+
+    &.hidden .nav-index {
+        transform: translateX(-100px);
+    }
+}
+
+.toggle-nav-display-button {
+    $size: 30px;
+
+    border: none;
+    position: fixed;
+    border-radius: 50px;
+    bottom: variables.$nav-width / 2;
+    left: (variables.$nav-width / 2) - ($size / 2);
+    width: $size;
+    height: $size;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    z-index: 1;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1); 
+    }
+
+    &.nav-hidden {
+        $hidden-size: $size * 2;
+        background: rgba(0, 0, 0, 0.5); 
+        backdrop-filter: blur(3px);
+        width: $hidden-size;
+        height: $hidden-size;
+        justify-content: flex-end;
+        bottom: (variables.$nav-width / 2) - ($size / 2);
+        left: -($hidden-size / 2 ) ;
+        border: 1px solid variables.$color7;
+    }
+
+    img {
+        rotate: -90deg;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+
+    &.nav-hidden img {
+        width: 50%;
+        rotate: 90deg;
+    }
+
+    &.hidden {
+        transform: translateX(-($size * 2));
     }
 }

@@ -26,8 +26,8 @@ export default function MainContainer() {
         ) : (                        
           <>
             <CategoryIndexLocationContextProvider>
-              <GameList games={games} />
               <Nav games={games} />
+              <GameList games={games} />
             </CategoryIndexLocationContextProvider>
           </>
           )

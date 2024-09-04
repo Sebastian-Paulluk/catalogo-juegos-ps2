@@ -655,8 +655,6 @@ export const games = [
 
 
 
-
-
     {
         "name": "darkwatch",
         "sub_name": "",
@@ -664,7 +662,7 @@ export const games = [
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Darkwatch_mjviam.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Darkwatch_-_copia_zfze0y.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401660/Darkwatch_-_copia_m6kbg4.jpg"
     },
     {
         "name": "dragon ball z",
@@ -673,7 +671,7 @@ export const games = [
         "region": "pal",
         "size": 2.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Dragon_Ball_Z_Infinite_Word_m7jkxe.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589712/Dragon_Ball_Z_Infinite_Word_-_copia_rama63.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401664/Dragon_Ball_Z_Infinite_Word_-_copia_didnhx.jpg"
     },
     {
         "name": "dragon ball z",
@@ -682,7 +680,7 @@ export const games = [
         "region": "ntsc",
         "size": 1.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Dragon_Ball_Z_Sagas_s4pc88.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589713/Dragon_Ball_Z_Sagas_-_copia_jlr8gw.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401665/Dragon_Ball_Z_Sagas_-_copia_tvpdbl.jpg"
     },
     {
         "name": "dragon ball z",
@@ -691,7 +689,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Dragon_Ball_Z_Budokai_fkbto0.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_-_copia_pdsra0.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401663/Dragon_Ball_Z_Budokai_-_copia_h2yau5.jpg"
     },
     {
         "name": "dragon ball z",
@@ -700,7 +698,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Dragon_Ball_Z_Budokai_2_uk0kdf.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_2_-_copia_nozqmr.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401663/Dragon_Ball_Z_Budokai_2_-_copia_hf6msr.jpg"
     },
     {
         "name": "dragon ball z",
@@ -709,7 +707,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Dragon_Ball_Z_Budokai_3_dljqho.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_3_-_copia_pdjohf.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401663/Dragon_Ball_Z_Budokai_3_-_copia_s9yhrs.jpg"
     },
     {
         "name": "dragon ball z",
@@ -718,7 +716,7 @@ export const games = [
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Dragon_Ballz_Budokai_3_Collection_ddqvon.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dragon_Ballz_Budokai_3_Collection_-_copia_wcj7n1.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401665/Dragon_Ballz_Budokai_3_Collection_-_copia_vre6ru.jpg"
     },
     {
         "name": "dragon ball z",
@@ -727,7 +725,7 @@ export const games = [
         "region": "pal",
         "size": 3.0,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Dragon_Ball_Z_Budokai_Tenkaichi_3_iezej1.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_Budokai_Tenkaichi_3_-_copia_gerbvk.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401663/Dragon_Ball_Z_Budokai_Tenkaichi_3_-_copia_m0av4h.jpg"
     },
     {
         "name": "dragon ball z",
@@ -736,7 +734,7 @@ export const games = [
         "region": "pal",
         "size": 4.0,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Dragon_Ball_Budokai_Tenkaichi_f6ykxp.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dragon_Ball_Budokai_Tenkaichi_-_copia_l7t6ae.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Dragon_Ball_Budokai_Tenkaichi_-_copia_pvvna6.jpg"
     },
     {
         "name": "dragon ball z",
@@ -745,7 +743,7 @@ export const games = [
         "region": "pal",
         "size": 2.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Dragon_Ball_Z_-_Budokai_Tenkaichi_2_fdocmh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589711/Dragon_Ball_Z_-_Budokai_Tenkaichi_2_-_copia_afpaqs.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401662/Dragon_Ball_Z_-_Budokai_Tenkaichi_2_-_copia_g71uad.jpg"
     },
     {
         "name": "dragon ball z",
@@ -754,7 +752,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.0,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Dragon_Ball_Z_Budokai_Tenkaichi_3_iezej1.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589712/Dragon_Ball_Z_Budokai_Tenkaichi_3_-_Version_Latino_-_copia_sw9zaj.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401664/Dragon_Ball_Z_Budokai_Tenkaichi_3_-_Version_Latino_-_copia_hoszcd.jpg"
     },
     {
         "name": "dragon ball z",
@@ -763,7 +761,7 @@ export const games = [
         "region": "ntsc",
         "size": 5.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723679141/dbz_budokai_tenkaichi_4_r85wpo.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/dbz_budokai_tenkaichi_4_-_copia_rgebd6.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401660/dbz_budokai_tenkaichi_4_-_copia_vzckdq.jpg"
     },
     {
         "name": "def jam",
@@ -772,125 +770,129 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Def_Jam_Fight_Fo_Ny_qa8bgq.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Def_Jam_Fight_Fo_Ny_-_copia_ionpcm.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401660/Def_Jam_Fight_Fo_Ny_-_copia_xjwqva.jpg"
+      },
+      {
         "name": "def jam",
         "sub_name": "vendetta",
         "language": "inglés",
         "region": "ntsc",
         "size": 2.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589704/Def_Jam_vendetta_impl1h.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Def_Jam_vendetta_-_copia_wxvoe7.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401660/Def_Jam_vendetta_-_copia_feiupg.jpg"
+      },
+      {
         "name": "depredador",
         "sub_name": "jungla de cristal",
         "language": "inglés",
         "region": "ntsc",
         "size": 3.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589707/Predator_-_Concrete_Jungle__olcye3.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589713/Predator_-_Concrete_Jungle__-_copia_cavicl.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401665/Predator_-_Concrete_Jungle__-_copia_ztj2qw.jpg"
+      },
+      {
         "name": "devil may cry",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Devil_May_Cry_exbgl1.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Devil_May_Cry_-_copia_hf3kaz.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Devil_May_Cry_-_copia_shnp3e.jpg"
+      },
+      {
         "name": "devil may cry 2",
         "sub_name": "disco 1 dante",
         "language": "español",
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Devil_May_Cry_2_zq94ok.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Devil_May_Cry_2_-_copia_jk7ygm.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401660/Devil_May_Cry_2_-_copia_bxakv0.jpg"
+      },
+      {
         "name": "devil may cry 2",
         "sub_name": "disco 2 lucia",
         "language": "español",
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Devil_May_Cry_2_zq94ok.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589708/Devil_May_Cry_2_-_copia_jk7ygm.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401660/Devil_May_Cry_2_-_copia_bxakv0.jpg"
+      },
+      {
         "name": "devil may cry 3",
         "sub_name": "dantes awakening special edition",
         "language": "español",
         "region": "pal",
         "size": 4.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Devil_May_Cry_3_Edicion_Especial_kkhqlj.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Devil_May_Cry_3_Edicion_Especial_-_copia_dympkl.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401660/Devil_May_Cry_3_Edicion_Especial_-_copia_pe1iww.jpg"
+      },
+      {
         "name": "digimon",
         "sub_name": "rumble arena 2",
         "language": "español",
         "region": "pal",
         "size": 1.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589703/Digimon_Rumble_Arena_2_la18jd.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Digimon_Rumble_Arena_2_-_copia_xuzvig.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Digimon_Rumble_Arena_2_-_copia_y6zs6d.jpg"
+      },
+      {
         "name": "digimon world",
         "sub_name": "data squad",
         "language": "inglés",
         "region": "ntsc",
         "size": 2.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Digimon_World_Data_Squad_x0zu4b.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Digimon_World_Data_Squad_-_copia_andiyo.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Digimon_World_Data_Squad_-_copia_q4txik.jpg"
+      },
+      {
         "name": "digimon world 4",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 1.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589705/Digimon_World_4_mphbes.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Digimon_World_4_-_copia_k9yph3.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Digimon_World_4_-_copia_vbcepu.jpg"
+      },
+      {
         "name": "disney princesas",
         "sub_name": "viaje encantado",
         "language": "español",
         "region": "pal",
         "size": 3.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Disney_Princesas_-_Un_Vieje_Encantado_gpfwjk.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Disney_Princesas_-_Un_Vieje_Encantado_-_copia_pno211.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Disney_Princesas_-_Un_Vieje_Encantado_-_copia_v2j1c9.jpg"
+      },
+      {
         "name": "dora",
         "sub_name": "salva a la princesa de la nieve",
         "language": "inglés",
         "region": "ntsc",
         "size": 1.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Dora_The_Explorer_-_Dora_Saves_The_Snow_Princess_cgityi.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dora_The_Explorer_-_Dora_Saves_The_Snow_Princess_-_copia_nczde2.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Dora_The_Explorer_-_Dora_Saves_The_Snow_Princess_-_copia_myu4dp.jpg"
+      },
+      {
         "name": "dora",
         "sub_name": "salva el reino de cristal",
         "language": "inglés",
         "region": "ntsc",
         "size": 1.2,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589706/Dora_Save_The_Crystal_Kingdom_yu47u7.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589709/Dora_Save_The_Crystal_Kingdom_-_copia_devl1z.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Dora_Save_The_Crystal_Kingdom_-_copia_xsybqi.jpg"
+      },
+      {
         "name": "dora",
         "sub_name": "viaje al planeta violeta",
         "language": "inglés",
         "region": "ntsc",
         "size": 0.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589702/Dora_The_Explorer_-_Journey_To_The_Purple_Planet_stfvyu.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723589710/Dora_The_Explorer_-_Journey_To_The_Purple_Planet_-_copia_acfyyv.jpg"
-    },
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725401661/Dora_The_Explorer_-_Journey_To_The_Purple_Planet_-_copia_en2s2g.jpg"
+      },
+      
+    
+
+ 
 
 
 
@@ -901,16 +903,14 @@ export const games = [
 
 
 
-
-
-    {
+      {
         "name": "fifa",
         "sub_name": "Mundial 2002",
         "language": "español",
         "region": "pal",
         "size": 2.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680527/Mundial_FIFA_2002_scbp2t.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680541/Mundial_FIFA_2002_-_copia_mkumly.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404376/Mundial_FIFA_2002_-_copia_omewin.jpg"
     },
     {
         "name": "fifa",
@@ -919,7 +919,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680517/Fifa_Copa_Del_Mundo_Alemania_2006_douexz.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680523/Fifa_Copa_Del_Mundo_Alemania_2006_-_copia_tml79k.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404332/Fifa_Copa_Del_Mundo_Alemania_2006_-_copia_gj7mvr.jpg"
     },
     {
         "name": "fifa 06",
@@ -928,7 +928,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680528/Fifa_06_xfb8cn.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680519/Fifa_06_-_copia_pesmdc.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404326/Fifa_06_-_copia_wltt6d.jpg"
     },
     {
         "name": "fifa 07",
@@ -937,7 +937,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Fifa_07_s7sv97.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680519/Fifa_07_-_copia_l8cv7v.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404327/Fifa_07_-_copia_fr6yux.jpg"
     },
     {
         "name": "fifa 08",
@@ -946,7 +946,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Fifa_08_ixhudh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680520/Fifa_08_-_copia_b8zlla.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404327/Fifa_08_-_copia_iqrltg.jpg"
     },
     {
         "name": "fifa 09",
@@ -955,7 +955,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680531/Fifa_09_jxrdvp.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680520/Fifa_09_-_copia_n2wo21.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404328/Fifa_09_-_copia_hfdttj.jpg"
     },
     {
         "name": "fifa 10",
@@ -964,7 +964,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680533/Fifa_10_vxatfp.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680520/Fifa_10_-_copia_jzzesn.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404328/Fifa_10_-_copia_xaivks.jpg"
     },
     {
         "name": "fifa 11",
@@ -973,7 +973,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680515/Fifa_11_flt7cz.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680521/Fifa_11_-_copia_b8k4go.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404329/Fifa_11_-_copia_yrhwzk.jpg"
     },
     {
         "name": "fifa 12",
@@ -982,7 +982,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680516/fifa_12_kywzqi.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680521/fifa_12_-_copia_l4pkce.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404330/fifa_12_-_copia_anpolh.jpg"
     },
     {
         "name": "fifa 13",
@@ -991,7 +991,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680515/fifa_13_phml0l.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680521/fifa_13_-_copia_qo8a8e.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404330/fifa_13_-_copia_b4qdzk.jpg"
     },
     {
         "name": "fifa 14",
@@ -1000,7 +1000,7 @@ export const games = [
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680529/fifa_14_ofsdlv.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680522/fifa_14_-_copia_wq7enw.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404331/fifa_14_-_copia_zls4a4.jpg"
     },
     {
         "name": "fifa 2002",
@@ -1009,7 +1009,7 @@ export const games = [
         "region": "pal",
         "size": 4.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680515/FIFA_Football_2002_kmf7ur.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680519/FIFA_Football_2002_-_copia_dabyf4.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404326/FIFA_Football_2002_-_copia_ftrm3u.jpg"
     },
     {
         "name": "fifa 2003",
@@ -1018,7 +1018,7 @@ export const games = [
         "region": "pal",
         "size": 3.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680525/Fifa_Football_2003_sowl8q.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680523/Fifa_Football_2003_-_copia_kwu93w.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404333/Fifa_Football_2003_-_copia_eyzpcj.jpg"
     },
     {
         "name": "fifa 2004",
@@ -1027,7 +1027,7 @@ export const games = [
         "region": "pal",
         "size": 2.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680525/Fifa_Football_2004_fo1kej.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680524/Fifa_Football_2004_-_copia_etvgol.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404334/Fifa_Football_2004_-_copia_i6ceiq.jpg"
     },
     {
         "name": "fifa 2005",
@@ -1036,133 +1036,133 @@ export const games = [
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680532/Fifa_Football_2005_tigucc.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680524/Fifa_Football_2005_-_copia_vwacmj.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404333/Fifa_Football_2005_-_copia_vxbcyi.jpg"
+      },
+      {
         "name": "fifa 21",
         "sub_name": "",
         "language": "español",
         "region": "ntsc",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680516/Fifa_21_wa7773.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680522/Fifa_21_-_copia_fzdjhe.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404331/Fifa_21_-_copia_ulf0ba.jpg"
+      },
+      {
         "name": "fifa street",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680528/Fifa_Street_qwftj7.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680533/Fifa_Street_-_copia_hai9ei.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404335/Fifa_Street_-_copia_gqiehw.jpg"
+      },
+      {
         "name": "fifa street 2",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 4.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Fifa_Street_2_t3c951.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680534/Fifa_Street_2_-_copia_wt5ko2.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404335/Fifa_Street_2_-_copia_xt0gql.jpg"
+      },
+      {
         "name": "fight night",
         "sub_name": "round 2",
         "language": "inglés",
         "region": "pal",
         "size": 3.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680532/Fight_Night_Round_2_lboh8c.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680534/Fight_Night_Round_2_-_copia_ig59kl.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404337/Fight_Night_Round_2_-_copia_hs9r3b.jpg"
+      },
+      {
         "name": "fight night",
         "sub_name": "round 3",
         "language": "inglés",
         "region": "pal",
         "size": 3.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Fight_Night_Round_3_ywcdnb.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680535/Fight_Night_Round_3_-_copia_szuy2b.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404337/Fight_Night_Round_3_-_copia_txissx.jpg"
+      },
+      {
         "name": "fight night 2004",
         "sub_name": "",
         "language": "inglés",
         "region": "ntsc",
         "size": 3.0,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680524/Fight_Night_2004_bavgxs.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680534/Fight_Night_2004_-_copia_lbxpeq.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404336/Fight_Night_2004_-_copia_xr57r7.jpg"
+      },
+      {
         "name": "final fantasy x2",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 3.8,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680523/Final_Fantasy_X-2_qteeqh.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680535/Final_Fantasy_X-2_-_copia_j6x5jb.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404339/Final_Fantasy_X-2_-_copia_dupfrw.jpg"
+      },
+      {
         "name": "final fantasy xi",
         "sub_name": "",
         "language": "inglés",
         "region": "ntsc",
         "size": 2.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680517/Final_Fantasy_Xi_moj5c3.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680536/Final_Fantasy_Xi_-_copia_lnr4sn.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404340/Final_Fantasy_Xi_-_copia_omw2am.jpg"
+      },
+      {
         "name": "final fantasy vii",
         "sub_name": "dirge of cerberus",
         "language": "inglés",
         "region": "ntsc",
         "size": 3.7,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Dirge_Of_Cerberus_-_Final_Fantasy_Vii_rdbzjc.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680518/Dirge_Of_Cerberus_-_Final_Fantasy_Vii_-_copia_e6znzc.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404325/Dirge_Of_Cerberus_-_Final_Fantasy_Vii_-_copia_opuvvf.jpg"
+      },
+      {
         "name": "final fantasy x",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 4.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Final_Fantasy_X_ipq63v.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680535/Final_Fantasy_X_-_copia_sqwa9d.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404338/Final_Fantasy_X_-_copia_g7ozbb.jpg"
+      },
+      {
         "name": "ford",
         "sub_name": "street racing",
         "language": "español",
         "region": "pal",
         "size": 0.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680528/Ford_Street_Racing_igskzc.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Ford_Street_Racing_-_copia_qbelsx.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404343/Ford_Street_Racing_-_copia_b23vka.jpg"
+      },
+      {
         "name": "ford mustang",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 1.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680532/Ford_Mustang_flvqab.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680536/Ford_Mustang_-_copia_otg5gr.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404341/Ford_Mustang_-_copia_clks8e.jpg"
+      },
+      {
         "name": "ford racing",
         "sub_name": "off road",
         "language": "español",
         "region": "pal",
         "size": 0.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680526/Ford_Off_Road_soxtkr.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680537/Ford_Off_Road_-_copia_gk34wj.jpg"
-    },
-    {
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404342/Ford_Off_Road_-_copia_pfpind.jpg"
+      },
+      {
         "name": "ford racing 2",
         "sub_name": "",
         "language": "español",
         "region": "pal",
         "size": 0.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680529/Ford_Racing_2_ecgg96.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680536/Ford_Racing_2_-_copia_xw107z.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404340/Ford_Racing_2_-_copia_ogkzer.jpg"
     },
     {
         "name": "ford racing 3",
@@ -1171,7 +1171,7 @@ export const games = [
         "region": "pal",
         "size": 0.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680526/Ford_Racing_3_r1tlev.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Ford_Racing_3_-_copia_x1hz6s.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404343/Ford_Racing_3_-_copia_vcnpii.jpg"
     },
     {
         "name": "ford vs chevy",
@@ -1180,7 +1180,7 @@ export const games = [
         "region": "pal",
         "size": 2.4,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680526/Ford_Vs_Chevy_t0moey.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680538/Ford_Vs_Chevy_-_copia_fpi2pu.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404344/Ford_Vs_Chevy_-_copia_bkq0b9.jpg"
     },
     {
         "name": "formula 1 01",
@@ -1189,7 +1189,7 @@ export const games = [
         "region": "pal",
         "size": 0.5,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680525/Formula_One_2001_staipl.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680539/Formula_One_2001_-_copia_tmiiyd.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404373/Formula_One_2001_-_copia_mel1jp.jpg"
     },
     {
         "name": "formula 1 03",
@@ -1198,7 +1198,7 @@ export const games = [
         "region": "pal",
         "size": 3.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Formula_One_2003_w7i0xy.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680540/Formula_One_2003_-_copia_khn27k.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404374/Formula_One_2003_-_copia_qucqzq.jpg"
     },
     {
         "name": "formula 1 04",
@@ -1207,7 +1207,7 @@ export const games = [
         "region": "pal",
         "size": 1.6,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680531/Formula_One_2004_qjmqrl.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680540/Formula_One_2004_-_copia_yiw9fx.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404375/Formula_One_2004_-_copia_waizov.jpg"
     },
     {
         "name": "formula 1 05",
@@ -1216,7 +1216,7 @@ export const games = [
         "region": "pal",
         "size": 3.3,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680533/Formula_One_2005_berl72.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680540/Formula_One_2005_-_copia_lasjvz.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404376/Formula_One_2005_-_copia_x5am6z.jpg"
     },
     {
         "name": "formula 1 06",
@@ -1225,8 +1225,11 @@ export const games = [
         "region": "pal",
         "size": 4.1,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680530/Formula_One_06_ggr09s.jpg",
-        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1723680539/Formula_One_06_-_copia_z0iebw.jpg"
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725404372/Formula_One_06_-_copia_ymflkg.jpg"
     },
+    
+      
+    
     
     
 
@@ -1598,7 +1601,79 @@ export const games = [
         "size": 3.9,
         "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281957/Kung_Fu_Panda_mxzkkz.jpg",
         "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1724281956/Kung_Fu_Panda_-_copy_gvtzrn.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "lego batman",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 2.0,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403173/Lego_-_Batman_kx4b8n.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403171/Lego_-_Batman_-_copia_sjoyjz.jpg"
+    },
+    {
+        "name": "lego indiana jones",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 4.1,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403173/Lego_Indiana_Jones_nqae41.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403172/Lego_Indiana_Jones_-_copia_qjupen.jpg"
+    },
+    {
+        "name": "lego island xtreme stunts",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 1.9,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403172/island_xtreme_stunts_dvd_af0o2p.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403171/island_xtreme_stunts_dvd_-_copia_grwq6y.jpg"
+    },
+    {
+        "name": "lego racers 2",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 0.5,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403172/Lego_Racers_2_an8c02.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403173/Lego_Racers_2_-_copia_gmqdzo.jpg"
+    },
+    {
+        "name": "lego star wars",
+        "sub_name": "",
+        "language": "español",
+        "region": "pal",
+        "size": 0.6,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403174/Lego_Star_Wars_aw68sn.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403173/Lego_Star_Wars_-_copia_lx2ipg.jpg"
+    },
+    {
+        "name": "lego star wars 2",
+        "sub_name": "la trilogia original",
+        "language": "español",
+        "region": "pal",
+        "size": 4.3,
+        "image": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403174/Lego_Star_Wars_Ii_-_La_Trilogia_Original_zpbixq.jpg",
+        "thumbnail": "https://res.cloudinary.com/dyyczibe4/image/upload/v1725403174/Lego_Star_Wars_Ii_-_La_Trilogia_Original_-_copia_xqudm7.jpg"
     }
+    
 
     
 

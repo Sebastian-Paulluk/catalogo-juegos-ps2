@@ -15,7 +15,7 @@
     transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.5s ease, border-color 0.5s ease;
 
     &.hidden {
-        transform: translateX(20px);
+        transform: translateX(-20px);
         opacity: 0;
     }
 
@@ -112,7 +112,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            display: block;
             transition: all 0.2s ease;
             cursor: pointer;
 

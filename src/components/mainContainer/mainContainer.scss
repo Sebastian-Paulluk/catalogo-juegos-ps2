@@ -5,4 +5,5 @@ $nav-Width: variables.$nav-width;
 .main-container {
     display: flex;
     font-family: variables.$font;
+    position: relative;
 }
