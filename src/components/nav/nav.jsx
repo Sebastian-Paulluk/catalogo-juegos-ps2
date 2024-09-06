@@ -11,7 +11,8 @@ export default function Nav({games}) {
     const startVisibility = useMountingAnimation()
     const [isVisible, setIsVisible] = useState(true)
     const {changeCurrentLocation} = useContext(CategoryIndexLocationContext)
-
+    
+    
     const getAllIndexes =gamesCollection=> {
         let indexesCollection = []
 

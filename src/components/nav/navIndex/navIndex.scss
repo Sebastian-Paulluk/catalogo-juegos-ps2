@@ -15,11 +15,15 @@
         opacity: 0;
     }
 
-    &:hover {
+    &.current {
         background-color: variables.$color4;
     }
 
-    &:active {
+    &:hover {
         background-color: variables.$color6;
+    }
+
+    &:active {
+        background-color: variables.$color7;
     }
 }

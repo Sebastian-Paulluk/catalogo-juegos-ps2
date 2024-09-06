@@ -8,6 +8,7 @@ import radioUnchecked from './../../assets/radio-unchecked.png';
 import radioChecked from './../../assets/radio-checked.png';
 import arrowUp from './../../assets/double-arrow-up.png';
 import { LoadingCard } from './LoadingCard/loadingCard';
+import LazyLoad from 'react-lazyload';
 
 export default function GameCard({game, mountingDelay}) {
     const {toggleGameOnSavedList, gameInSavedList, savedGames} = useContext(savedGamesContext);
@@ -58,20 +59,23 @@ export default function GameCard({game, mountingDelay}) {
 
     const handleImageLoad = () => {
         setIsImageLoaded(true);
-        console.log("Hola")
     };
+
 
     return (
         <>
             <div ref={cardRef} className={`game-card ${visibility ? '' : 'hidden'} ${gameInSavedList(game) ? 'saved' : ''}`}>
-                <img
-                    className='game-card-image'
-                    src={game.thumbnail}
-                    alt={`${game.name} ${game.sub_name}`}
-                    onLoad={handleImageLoad}
-                    onClick={handleOpenModal}
-                    style={{ display: isImageLoaded ? 'block' : 'none' }}
-                />
+                <LazyLoad once>
+                    <img
+                        className='game-card-image'
+                        src={game.thumbnail}
+                        alt={`${game.name} ${game.sub_name}`}
+                        onLoad={handleImageLoad}
+                        onClick={handleOpenModal}
+                        style={{ display: isImageLoaded ? 'block' : 'none' }}
+                    />
+                </LazyLoad>
+
                 {!isImageLoaded && <LoadingCard/>}
                 {isImageLoaded && (
                     <>

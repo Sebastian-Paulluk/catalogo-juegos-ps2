@@ -8,11 +8,12 @@
     top: variables.$header-height;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     opacity: 1;
     transition: opacity 0.2s ease-in, box-shadow 0.2s ease-in, width 0.5s ease;
     overflow: hidden;
+    padding-top: 23px;
     background: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.8), 

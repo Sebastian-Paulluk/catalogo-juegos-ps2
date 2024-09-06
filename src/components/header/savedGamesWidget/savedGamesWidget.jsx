@@ -22,14 +22,14 @@ export const SavedGamesWidget =()=>{
                 <Badge
                     count={count}
                     size="middle"
-                    offset={[-30, 5]}
+                    offset={[0, 5]}
                     color='purple'
                     onClick={openDrawer}
                 >
                 <Badge
                     count={ totalQuantitySavedGames() > 0 ? totalSizeSavedList() + ' GB' : ''}
                     size="middle"
-                    offset={[5, 30]}
+                    offset={[-18, 42]}
                     color='geekblue'
                     onClick={openDrawer}
                 >

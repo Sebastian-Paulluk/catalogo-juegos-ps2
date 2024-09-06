@@ -6,6 +6,7 @@ import { groupGamesByIndex } from '../../functions/groupGamesByIndex'
 import GameList from '../gameList/gameList'
 import { LoadingScreen } from '../loadingScreen/loadingScreen'
 import { CategoryIndexLocationContextProvider } from '../../context/CategoryIndexLocationContext'
+import { CurrentIndexLocationContextProvider } from '../../context/CurrentIndexLocationContext'
 
 export default function MainContainer() {
   const [games, setGames] = useState([])
@@ -26,8 +27,10 @@ export default function MainContainer() {
         ) : (                        
           <>
             <CategoryIndexLocationContextProvider>
+            <CurrentIndexLocationContextProvider>
               <Nav games={games} />
               <GameList games={games} />
+            </CurrentIndexLocationContextProvider>
             </CategoryIndexLocationContextProvider>
           </>
           )
