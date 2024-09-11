@@ -4,6 +4,7 @@ import './indexCategory.scss'
 import { CategoryTitle } from '../categoryTitle/categoryTitle'
 import { orderGamesByNameAndSubname } from '../../functions/orderGamesByNameAndSubname'
 
+
 const IndexCategory = forwardRef(({ gameIndexCollection }, ref) => {
   const index = gameIndexCollection.name
   const games = gameIndexCollection.games

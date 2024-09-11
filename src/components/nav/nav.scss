@@ -33,21 +33,22 @@
 
 .toggle-nav-display-button {
     $size: 30px;
-
+    
     border: none;
     position: fixed;
-    border-radius: 50px;
-    bottom: variables.$nav-width / 2;
-    left: (variables.$nav-width / 2) - ($size / 2);
-    width: $size;
+    bottom: calc(variables.$nav-width / 2);
+    left: 0;
+    width: 56px;
     height: $size;
-    background-color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease;
     z-index: 3;
     cursor: pointer;
+    border-radius: 0;
 
     &:hover {
         transform: scale(1.1); 
@@ -60,9 +61,11 @@
         width: $hidden-size;
         height: $hidden-size;
         justify-content: flex-end;
-        bottom: (variables.$nav-width / 2) - ($size / 2);
-        left: -($hidden-size / 2 ) ;
+        bottom: calc(variables.$nav-width / 2) - calc($size / 2);
+        left: -(calc($hidden-size / 2 )) ;
         border: 1px solid variables.$color7;
+        border-radius: 50px;
+        padding: 0px;
     }
 
     img {
