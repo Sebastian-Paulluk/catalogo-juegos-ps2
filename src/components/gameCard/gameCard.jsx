@@ -8,7 +8,19 @@ import radioUnchecked from './../../assets/radio-unchecked.png';
 import radioChecked from './../../assets/radio-checked.png';
 import arrowUp from './../../assets/double-arrow-up.png';
 import { LoadingCard } from './LoadingCard/loadingCard';
-import LazyLoad from 'react-lazyload';
+import { useInView } from 'react-intersection-observer';
+
+function setRefs(...refs) {
+    return (element) => {
+        refs.forEach(ref => {
+            if (typeof ref === 'function') {
+                ref(element);
+            } else if (ref) {
+                ref.current = element;
+            }
+        });
+    };
+}
 
 export default function GameCard({game, mountingDelay}) {
     const {toggleGameOnSavedList, gameInSavedList, savedGames} = useContext(savedGamesContext);
@@ -16,11 +28,16 @@ export default function GameCard({game, mountingDelay}) {
     const [openModal, setOpenModal] = useState(false);
     const [openGameInfoPanel, setOpenGameInfoPanel] = useState(false);
     const [isImageLoaded, setIsImageLoaded] = useState(false);
-    const cardRef = useRef(null); 
-
     const visibility = useMountingAnimation(mountingDelay);
     const name = game.name && capitalizeWords(game.name);
     const language = game.language && capitalizeWords(game.language);
+
+    const cardRef = useRef(null); 
+    const { ref: inViewRef, inView } = useInView({
+        threshold: 0.15,
+        rootMargin: '0px 0px 0px 0px'
+    });
+
 
     useEffect(()=>{
         setSavedState(gameInSavedList(game));
@@ -64,18 +81,15 @@ export default function GameCard({game, mountingDelay}) {
 
     return (
         <>
-            <div ref={cardRef} className={`game-card ${visibility ? '' : 'hidden'} ${gameInSavedList(game) ? 'saved' : ''}`}>
-                <LazyLoad once>
-                    <img
-                        className='game-card-image'
+            <div ref={setRefs(cardRef, inViewRef)} className={`game-card ${visibility ? '' : 'hidden'} ${inView ? '' : 'hidden'} ${gameInSavedList(game) ? 'saved' : ''}`}>
+                    <img 
+                        className={`game-card-image`}
                         src={game.thumbnail}
                         alt={`${game.name} ${game.sub_name}`}
                         onLoad={handleImageLoad}
                         onClick={handleOpenModal}
                         style={{ display: isImageLoaded ? 'block' : 'none' }}
                     />
-                </LazyLoad>
-
                 {!isImageLoaded && <LoadingCard/>}
                 {isImageLoaded && (
                     <>

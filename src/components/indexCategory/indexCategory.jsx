@@ -39,8 +39,6 @@ const IndexCategory = forwardRef(({ gameIndexCollection }, ref) => {
       changeCurrentLocation(index);
     }
   }, [isVisible]);
-
-  console.log(index + ' ' + isVisible)
   
   return (
     <div className='index-category' ref={setRefs}>

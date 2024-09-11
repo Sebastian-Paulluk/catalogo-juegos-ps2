@@ -44,6 +44,10 @@
         filter: brightness(80%);
         transition: filter 0.2s ease;
 
+        &.hidden {
+            display: none;
+        }
+
         @media only screen and (max-width: 979px) {
             filter: brightness(100%);
         }
@@ -63,7 +67,8 @@
         position: absolute;
         bottom: 0;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 0.7); 
+        backdrop-filter: blur(10px);
         transition: all 0.3s ease;
 
         .name, .sub-name {
