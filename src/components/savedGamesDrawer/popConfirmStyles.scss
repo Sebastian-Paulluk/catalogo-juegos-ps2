@@ -1,0 +1,97 @@
+// -------------- Estilos del pop confirm
+
+$bg-color: rgb(216, 216, 216);
+$title-color: default;
+$description-color: default;
+
+// ------------ Buttons ---------- //
+$buttons-position: center;    // Options: flex-start _ center _ flex-end
+
+// ------- Cancel button
+$cancel-button-bg-color: $bg-color;
+$cancel-button-border-color: rgb(87, 87, 87);
+$cancel-button-text-color: rgb(87, 87, 87);
+// ---- Cancel button hover
+$cancel-button-hover-bg-color: rgb(255, 0, 0);
+$cancel-button-hover-border-color: rgb(255, 0, 0);
+$cancel-button-hover-text-color: rgb(255, 255, 255);
+// ---- Cancel button active
+$cancel-button-active-bg-color: rgb(145, 0, 0);
+$cancel-button-active-border-color: rgb(143, 0, 0);
+$cancel-button-active-text-color: default;
+
+// ------- Confirm button
+$confirm-button-bg-color: $bg-color;
+$confirm-button-border-color: rgb(87, 87, 87);
+$confirm-button-text-color: rgb(87, 87, 87);
+// ---- Confirm button hover
+$confirm-button-hover-bg-color: green;
+$confirm-button-hover-border-color: green;
+$confirm-button-hover-text-color: white;
+// ---- Confirm button active
+$confirm-button-active-bg-color: rgb(0, 73, 0);
+$confirm-button-active-border-color: rgb(0, 73, 0);
+$confirm-button-active-text-color: default;
+
+
+.ant-popover-inner, .ant-popover-arrow::before, .ant-popover-arrow::after {
+    background-color: $bg-color !important;
+}
+
+.ant-popover-inner {
+    box-shadow: 5px 5px 10px rgb(163, 0, 0) !important;
+}
+
+
+.ant-popconfirm-title{
+    color: $title-color !important;
+}
+
+.ant-popconfirm-description {
+    color: $description-color !important;
+}
+
+.ant-popconfirm-buttons{
+    @if ($buttons-position != default) {
+        display: flex;
+        justify-content: $buttons-position;
+    }
+}
+
+// Cancel button
+.ant-btn-default{
+    background-color: $cancel-button-bg-color;
+    border-color: $cancel-button-border-color !important;
+    color: $cancel-button-text-color !important;
+
+    &:hover{
+        background-color:$cancel-button-hover-bg-color !important;
+        border-color: $cancel-button-hover-border-color !important;
+        color: $cancel-button-hover-text-color !important;
+    }
+
+    &:active{
+        background-color:  $cancel-button-active-bg-color !important;
+        border-color: $cancel-button-active-border-color !important;
+        color: $cancel-button-active-text-color !important;
+    }
+}
+
+// Confirm button
+.ant-btn-primary{
+    background-color: $confirm-button-bg-color !important;
+    border-color: $confirm-button-border-color !important;
+    color: $confirm-button-text-color !important;
+
+    &:hover{
+        background-color:  $confirm-button-hover-bg-color !important;
+        border-color: $confirm-button-hover-border-color !important;
+        color: $confirm-button-hover-text-color !important;
+    }
+
+    &:active{
+        background-color: $confirm-button-active-bg-color !important;
+        border-color: $confirm-button-active-border-color !important;
+        color: $confirm-button-active-text-color !important;
+    }
+}

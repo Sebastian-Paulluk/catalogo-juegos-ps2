@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react"
 import './drawer.scss'
+import './popConfirmStyles.scss'
 import { DrawerGameCard } from "./drawerGameCard/drawerGameCard"
 import { message } from "antd"
 import { CopyToClipboard } from 'react-copy-to-clipboard';
